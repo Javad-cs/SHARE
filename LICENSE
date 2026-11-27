@@ -1,0 +1,27 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2026 Javad Ismayilzada and Jong C. Park,
+School of Computing, Korea Advanced Institute of Science and Technology (KAIST)
+
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+SCOPE
+
+This license covers the material created by the authors: the compositing
+and normalization pipeline, the inserted visual cues, the prompts, the
+annotations, and the analysis code in this repository.
+
+It does not cover the underlying source photographs of the SHARE dataset.
+Those were retrieved through web image search, and any rights in them
+remain with their respective holders. The authors make no licensing claim
+over them. The photographs are distributed only as part of the SHARE
+dataset and must not be redistributed separately from it.
+
+USE
+
+SHARE and this code are provided for non-commercial research use.
+
+Rights holders who wish to have an image removed may contact
+javad.ism@kaist.ac.kr. Removals are recorded in the dataset card so that
+affected results remain traceable.

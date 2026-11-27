@@ -1,0 +1,15 @@
+Look at the sign in this image.
+
+Identify:
+1. What text is written on the sign,
+2. What language it is written in,
+3. What the text means in English,
+4. Which country this sign most strongly suggests.
+
+Respond ONLY with valid JSON:
+{
+  "sign_text": "exact text visible on the sign",
+  "language_name": "name of the language",
+  "english_translation": "translation to English",
+  "primary_country": "country the sign most strongly suggests"
+}

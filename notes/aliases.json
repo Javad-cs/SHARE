@@ -1,0 +1,703 @@
+{
+  "afghanistan": [
+    "Afghanistan",
+    "افغانستان",
+    "아프가니스탄",
+    "Афғонистон",
+    "Afganistan",
+    "افغانستان (Afghanistan)",
+    "Əfqanıstan",
+    "अफगानिस्तान",
+    "Afganistán",
+    "अफ़ग़ानिस्तान",
+    "अफगानिस्तान (Afghanistan)",
+    "Афғонистон (Afghanistan)",
+    "Ауғанстан",
+    "Афганистан"
+  ],
+  "albania": [
+    "Albania"
+  ],
+  "algeria": [
+    "Algeria",
+    "अल्जीरिया"
+  ],
+  "argentina": [
+    "Argentina"
+  ],
+  "armenia": [
+    "ارمنستان",
+    "Armenia"
+  ],
+  "azerbaijan": [
+    "Azerbaijan",
+    "ارزبیجان",
+    "아제르바이잔",
+    "Azərbaycan",
+    "آذربایجان",
+    "अज़रबैजान",
+    "Azerbaiyán",
+    "Azerbaycan",
+    "अज़रबैजान (Azerbaijan)",
+    "Озарбойҷон",
+    "Озарбойҷон (Azerbaijan)",
+    "Ozarbayjon",
+    "Азербайджан"
+  ],
+  "bahrain": [
+    "Bahrain"
+  ],
+  "bangladesh": [
+    "Bangladesh",
+    "Bangladeş"
+  ],
+  "belarus": [
+    "Belarus"
+  ],
+  "bosnia and herzegovina": [
+    "Bosnia and Herzegovina"
+  ],
+  "brazil": [
+    "Brazil"
+  ],
+  "bulgaria": [
+    "Bulgaria"
+  ],
+  "china": [
+    "China",
+    "Çin",
+    "چین",
+    "Чин",
+    "중국",
+    "Xitoy",
+    "중국 (China)",
+    "چین (China)",
+    "จีน",
+    "Қитъаи Ҳунарманд (Хитой)",
+    "Қитъаи Хитой",
+    "Хитой",
+    "चीन",
+    "चीन (China)",
+    "China (Чин)"
+  ],
+  "city": [
+  ],
+  "colombia": [
+    "Colombia"
+  ],
+  "comoros": [
+    "Comoros"
+  ],
+  "costa rica": [
+    "Costa Rica"
+  ],
+  "denmark": [
+    "Danimarka",
+    "Denmark"
+  ],
+  "egypt": [
+    "Egypt",
+    "Misir",
+    "Mısır",
+    "مصر",
+    "Egipto",
+    "Egypt (मिस्र)"
+  ],
+  "ethiopia": [
+    "Ethiopia"
+  ],
+  "georgia": [
+    "Грузия",
+    "Georgia (گرجستان)",
+    "گرجستان (Georgia)",
+    "Гурҷистон",
+    "Gürcistan",
+    "گرجستان",
+    "Гурҷистон (Georgia)",
+    "Georgia"
+  ],
+  "germany": [
+    "Germany"
+  ],
+  "ghana": [
+    "Ghana"
+  ],
+  "greece": [
+    "Greece",
+    "ग्रीस",
+    "Grecia",
+    "یونان",
+    "Yunanıstan",
+    "Yunanistan",
+    "ग्रीस (Greece)"
+  ],
+  "hungary": [
+    "Hungary",
+    "हंगरी (Hungary)"
+  ],
+  "india": [
+    "India",
+    "هند",
+    "Hindistan",
+    "भारत",
+    "भारत (India)",
+    "İndiya",
+    "इंडिया",
+    "هند (India)",
+    "Ҳиндустон",
+    "Индия",
+    "Ҳиндустон (India)",
+    "Hindiston",
+    "Үндістан",
+    "Үндістан (India)",
+    "Индия (India)",
+    "Hindustan (India)",
+    "Индиё",
+    "Goa, India"
+  ],
+  "indonesia": [
+    "Indonesia",
+    "Indoneziya",
+    "Индонезия"
+  ],
+  "iran": [
+    "ایران",
+    "Eron",
+    "Iran",
+    "Эрон",
+    "이란",
+    "ایران (Iran)",
+    "İran",
+    "Эрон (Iran)",
+    "Иран",
+    "ईरान",
+    "Irán",
+    "ईरान (Iran)",
+    "Iran (ایران)",
+    "इरान",
+    "Эрон (Иран)"
+  ],
+  "iraq": [
+    "Iraq",
+    "İraq"
+  ],
+  "israel": [
+    "Israel",
+    "İsrail",
+    "इज़राइल"
+  ],
+  "italy": [
+    "Italy",
+    "ایتالیا",
+    "İtalya",
+    "이탈리아",
+    "Italiya",
+    "इटली",
+    "Italia",
+    "इटली (Italy)",
+    "ایتالیا (Italy)",
+    "İtaliya"
+  ],
+  "jamaica": [
+    "Jamaica"
+  ],
+  "japan": [
+    "Japonya",
+    "Japan",
+    "Yaponiya",
+    "ژاپن",
+    "Japan (ژاپن)",
+    "Япония",
+    "Ҷопон"
+  ],
+  "jordan": [
+    "Jordan",
+    "Урдун"
+  ],
+  "kazakhstan": [
+    "Kazakhstan",
+    "Қазоқистон",
+    "قزاقستان",
+    "카자흐스탄",
+    "Kazakistan",
+    "Қазақстан",
+    "Қазақстан (Kazakhstan)",
+    "Qozog'iston",
+    "قزاقستان (Kazakhstan)",
+    "कजाकिस्तान",
+    "कज़ाखस्तान",
+    "कजाखस्तान"
+  ],
+  "kenya": [
+    "Kenya"
+  ],
+  "kuwait": [
+    "Kuwait",
+    "कुवैत (Kuwait)"
+  ],
+  "kyrgyzstan": [
+    "Kyrgyzstan",
+    "Қирғизистон",
+    "키르기스스탄",
+    "Қирғизистон (Kyrgyzstan)"
+  ],
+  "lebanon": [
+    "Lebanon",
+    "Livan",
+    "لبنان",
+    "Líbano",
+    "लेबनान (Lebanon)"
+  ],
+  "lithuania": [
+    "Lithuania"
+  ],
+  "malaysia": [
+    "Malaysia",
+    "Malayziya"
+  ],
+  "mexico": [
+    "Mexico",
+    "México",
+    "Meksika"
+  ],
+  "moldova": [
+    "Moldova"
+  ],
+  "mongolia": [
+    "Mongolia",
+    "مغولستان",
+    "몽골",
+    "Монголия",
+    "Moğolistan",
+    "Mongoliya",
+    "몽골 (Mongolia)",
+    "Монголия (Mongolia)",
+    "मंगोलिया (Mongolia)",
+    "मंगोलिया",
+    "Моңғолия (Mongolia)",
+    "Муғулистон",
+    "Monqolustan"
+
+  ],
+  "morocco": [
+    "Morocco",
+    "मोरक्को",
+    "Marruecos",
+    "مراکش",
+    "Fas",
+    "Mərakeş"
+  ],
+  "nepal": [
+    "Nepal",
+    "نپال",
+    "네팔",
+    "Непал"
+  ],
+  "netherlands": [
+    "Netherlands"
+  ],
+  "nigeria": [
+    "Nigeria",
+    "नाइजीरिया"
+  ],
+  "north korea": [
+    "North Korea",
+    "کره شمالی"
+  ],
+  "norway": [
+    "Norway"
+  ],
+  "oman": [
+    "Oman"
+  ],
+  "pakistan": [
+    "Pakistan",
+    "पाकिस्तान"
+  ],
+  "palestine": [
+    "Palestine",
+    "Palestina"
+  ],
+  "paraguay": [
+    "Paraguay"
+  ],
+  "peru": [
+    "Peru"
+  ],
+  "philippines": [
+    "Philippines"
+  ],
+  "poland": [
+    "Poland",
+    "پольندا",
+    "پولندا",
+    "Polonya",
+    "پولاند",
+    "폴란드",
+    "Polonia"
+  ],
+  "portugal": [
+    "Portugal"
+  ],
+  "scotland": [
+    "Scotland"
+  ],
+  "qatar": [
+    "Qatar"
+  ],
+  "region": [
+    "Japan / China",
+    "Korea or Japan",
+    "Japan/China",
+    "آسیای مرکزی",
+    "Central Asian countries (e.g., Uzbekistan, Kazakhstan), Turkey, and other regions",
+    "Осиёи Марказӣ",
+    "Осиёи Марказӣ (масалан, Ӯзбекистон, Қазоқистон)",
+    "Central Asia (e.g., Uzbekistan, Kazakhstan)",
+    "Central Asia",
+    "آسیای مرکزی (مانند افغانستان، ازبکستان، قزاقستان)",
+    "آسیای مرکزی (مانند قزاقستان، ازبکستان)",
+    "کشورهای آسیای مرکزی (مانند قزاقستان، ازبکستان)",
+    "ایران / آسیای مرکزی",
+    "Japonya/Kore/Çin",
+    "Central Asian countries (e.g., Uzbekistan, Kazakhstan)",
+    "Central Asia / Turkey",
+    "O'rta Osiyo mamlakatlari (masalan, O'zbekiston, Qozog'iston)",
+    "중앙아시아 (우즈베키스탄, 카자흐스탄 등)",
+    "중앙아시아 (Central Asia)",
+    "China / Japan",
+    "Осиёи Марказӣ (масалан, Қазоқистон, Ӯзбекистон)",
+    "Central Asian countries (e.g., Kazakhstan, Uzbekistan)",
+    "Korea (or China/Japan)",
+    "Қитъаи Осиё (мутақаддиман Қитъаи Осиёи Шимолӣ ё Монголия)",
+    "Қитъаи Шарқии Осиё (масалан, Қитай)",
+    "Central Asia (e.g., Kazakhstan, Uzbekistan)",
+    "O'rta Osiyo (Turkiya, O'zbekiston, Qozog'iston)",
+    "O'rta Osiyo (masalan, O'zbekiston, Qozog'iston)",
+    "O'rta Osiyo (Turkiya, Qozog'iston, O'zbekiston)",
+    "한국 / 일본 / 중국",
+    "중앙아시아/튀르키예",
+    "Japan / Korea",
+    "Markaziy Osiyo mamlakatlari (masalan, O'zbekiston, Qozog'iston)",
+    "Central Asian countries (e.g., Kazakhstan, Uzbekistan, Kyrgyzstan)",
+    "Осиёи Марказӣ / Русия",
+    "Осиёи Марказӣ (Central Asia)",
+    "Nepal / China",
+    "چین / ژاپن",
+    "China/Japan",
+    "Turkey / Central Asia / China",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and Afghanistan)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and others)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and Turkmenistan)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan)",
+    "Nepal/Tibet",
+    "Central Asia (Uzbekistan, Kazakhstan, Kyrgyzstan, etc.)",
+    "Turkey/Central Asia",
+    "Korea (South or North)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, etc.)",
+    "Tibet",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and Tajikistan)",
+    "Turkey (and Central Asia)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and surrounding regions)",
+    "중국 (China) / 네팔 (Nepal) / 티베트 (Tibet)",
+    "Turkestan",
+    "Nepal/Tibet/India",
+    "China (specifically Tibetan/Nepalese regions)",
+    "China (or Tibet/Nepal)",
+    "Central Asia (specifically, Uzbekistan, Kazakhstan, Kyrgyzstan, and Afghanistan)",
+    "Central Asia (specifically Uzbekistan, Kazakhstan, Kyrgyzstan, and also Korea)",
+    "Central Asia (specifically, Uzbekistan, Kazakhstan, Kyrgyzstan)",
+    "Central Asia (specifically, Kazakhstan, Kyrgyzstan, Uzbekistan)",
+    "Nepal/Tibet/China",
+    "Қорақалпоғистон",
+    "وزیرستان",
+    "وزیرستان (از نظر فرهنگی و جغرافیایی، این غذا در ازبکستان و کشورهای مرکزی آسیا بسیار رایج است)",
+    "Қитъаи Шарқии Осиё (масалан, Қитъаи Хитой)",
+    "Қитъаи Осиё (масалан, Қитай, Монголия, Қазоқистон)",
+    "Middle East",
+    "Middle East / South Asia",
+    "Middle Eastern / South Asian countries (e.g., Turkey, India, Afghanistan)",
+    "Middle East / South Asia (general)",
+    "Middle East/South Asia (e.g., Afghanistan, Turkey, India)",
+    "Middle East/South Asia (e.g., Afghanistan, Iran, Turkey)",
+    "Middle East (Levant)",
+    "Middle East/South Asia",
+    "Middle East/South Asia (e.g., Afghanistan, India, Pakistan)",
+    "کشورهای خاورمیانه و شمال آفریقا",
+    "Middle East / South Asia (broadly)",
+    "Middle East/South Asia (general)",
+    "Middle East/Mediterranean region",
+    "Middle East/South Asia/Balkans (general)",
+    "Middle East/South Asia/Mediterranean (broadly)",
+    "Middle East/Mediterranean (general)",
+    "کشورهای مدیترانه ای و خاورمیانه",
+    "Middle East/Mediterranean region (e.g., Turkey, Lebanon, Greece)",
+    "भूमध्यसागरीय क्षेत्र (विशेषकर उत्तरी अफ्रीका और मध्य पूर्व)",
+    "Middle East/Mediterranean (e.g., Turkey, Azerbaijan)",
+    "Middle East/Mediterranean (broadly)",
+    "Middle East (Levant region)",
+    "Middle East/North Africa",
+    "Middle East / Mediterranean",
+    "خاورمیانه / مدیترانه",
+    "Mediterranean/Middle Eastern",
+    "Middle East/Mediterranean",
+    "خاورمیانه/مدیترانه",
+    "Middle East / Mediterranean region (e.g., Turkey, Iran, Greece)",
+    "Middle East (genel olarak)",
+    "Middle East/South Asia (broadly)",
+    "Middle East/South Asia (including India)",
+    "Middle East/Mediterranean region (e.g., Turkey, Greece, Lebanon)",
+    "Middle East / Mediterranean (e.g., Turkey, Lebanon, Syria)",
+    "Middle East / Mediterranean (e.g., Lebanon, Syria, Turkey)",
+    "Oriente Medio/Norte de África",
+    "Oriente Medio / Mediterráneo",
+    "Middle East/South Asia (e.g., Turkey, Iran, India)",
+    "Middle East/North Africa (various countries)",
+    "Middle East/South Asia/Balkans",
+    "Middle East / North Africa",
+    "Middle East / Mediterranean (e.g., Lebanon, Syria, Jordan)",
+    "Oriente Medio",
+    "Middle East / South Asia / North Africa",
+    "Middle East/South Asia (e.g., Turkey, India, Iran)",
+    "Middle East / South Asia / Mediterranean",
+    "Middle East / Mediterranean region",
+    "Middle East/Mediterranean (e.g., Turkey, Iran, Greece)",
+    "Middle East/Mediterranean (e.g., Turkey, Greece, Iran)",
+    "Middle East (various countries)",
+    "Oriente Medio/Sur de Asia",
+    "Middle East / Mediterranean region (e.g., Turkey, Greece, Lebanon)",
+    "Middle East / Mediterranean / South Asia",
+    "Oriente Medio (general)",
+    "Orta Doğu (genel)",
+    "Not specific to one country",
+    "मध्य पूर्व और दक्षिण एशिया (Middle East and South Asia)",
+    "Middle East/South Asia (e.g., Iran, India, Turkey)",
+    "خاورمیانه / شمال آفریقا",
+    "Middle East/South Asia (e.g., Iran, Turkey, India)",
+    "Middle East/South Asia (various countries)",
+    "Middle East (e.g., Turkey, Lebanon, Iran)",
+    "Middle East/North Africa (e.g., Iran, Turkey, Egypt)",
+    "Middle East/Mediterranean (e.g., Iran, Turkey, Greece)",
+    "Kashmir",
+    "Middle Eastern (specifically Egypt, Palestine, Israel, Lebanon)",
+    "Middle Eastern (specifically, likely Lebanon or Palestine)",
+    "ایران (همچنین لبنان و کشورهای عربی)",
+    "O'rta Osiyo (Markaziy Osiyo)",
+    "Central Asia / Middle East / South Asia",
+    "Central Asia/South Asia",
+    "Levant (e.g., Lebanon, Syria, Jordan, Palestine)",
+    "मध्य पूर्व/मध्य एशिया",
+    "मध्य एशिया/मध्य पूर्व",
+    "मध्य एशिया",
+    "Middle East / Central Asia",
+    "Central Asia / South Asia",
+    "Turkey (or Uzbekistan/Central Asia)",
+    "Turkey (or Azerbaijan/Uzbekistan)",
+    "Turkey (or Central Asia)",
+    "Arabian Peninsula (especially Saudi Arabia)",
+    "Орталық Азия елдері (мысалы, Өзбекстан, Қазақстан)",
+    "Орталық Азия",
+    "Ethiopia (or Somalia, Eritrea, Djibouti)",
+    "Ethiopia (or Somalia, Eritrea, Yemen, India, Pakistan)",
+    "Ethiopia (or India/Pakistan)",
+    "Ethiopia (or Somalia, Eritrea, India, Pakistan)",
+    "Turkey (or broader Middle East/South Asia)",
+    "Crimea/Russia/Turkey",
+    "Crimea/Russia/Ukraine",
+    "Middle East (specifically Iraq, Syria, Egypt)",
+    "Middle East (specifically, countries like Egypt, Syria, Iraq, and the Arabian Peninsula)",
+    "Middle East/Central Asia",
+    "Crimea/Ukraine/Russia",
+    "Ethiopia (and Eritrea)",
+    "Ethiopia (and surrounding regions like Eritrea, Somalia)",
+    "Turkey (or India/Middle East)",
+    "Turkey (or India/Pakistan)",
+    "Central Asia (Uzbekistan, Kazakhstan, etc.)",
+    "Turkey (or Middle East/Balkans)",
+    "Turkey (or Middle East/Central Asia)"
+  ],
+  "romania": [
+    "Romania"
+  ],
+  "russia": [
+    "Russia",
+    "Russia (روسیه)",
+    "Rusya",
+    "Россия",
+    "روسیه",
+    "Русия",
+    "러시아",
+    "Rossiya",
+    "Tatarstan (Russia)"
+  ],
+  "saudi arabia": [
+    "Saudi Arabia",
+    "सऊदी अरब (Saudi Arabia)",
+    "عربستان سعودی"
+  ],
+  "serbia": [
+    "Serbia"
+  ],
+  "slovakia": [
+    "Slovakia"
+  ],
+  "somalia": [
+    "Somalia"
+  ],
+  "south korea": [
+    "South Korea",
+    "Korea",
+    "한국 (South Korea)",
+    "대한민국 (South Korea)",
+    "한국",
+    "کره جنوبی",
+    "대한민국",
+    "Кореяи Ҷанубӣ",
+    "Güney Kore",
+    "Корея",
+    "Janubiy Koreya",
+    "کره",
+    "Korea (South Korea)",
+    "Korea, South Korea",
+    "Korea, South",
+    "Kore",
+    "Koreya"
+  ],
+  "spain": [
+    "Spain",
+    "España",
+    "İspaniya",
+    "اسپانیا",
+    "स्पेन (Spain)",
+    "स्पेन",
+    "İspanya"
+  ],
+  "sudan": [
+    "Sudan"
+  ],
+  "sweden": [
+    "Sweden",
+    "स्वीडन",
+    "Suecia",
+    "İsveç",
+    "स्वीडन (Sweden)",
+    "سوئد",
+    "Швеция (Sweden)"
+  ],
+  "syria": [
+    "Syria"
+  ],
+  "tajikistan": [
+    "Tajikistan",
+    "타지키스탄",
+    "Тоҷикистон",
+    "تاجیکستان",
+    "Tacikistan",
+    "Tojikiston",
+    "Точикистон",
+    "Таджикистан",
+    "Точикистон (Tajikistan)",
+    "Tajikiston",
+    "تاجیکستان (Tajikistan)",
+    "ताजिकिस्तान",
+    "ताजिकिस्तान (Tajikistan)",
+    "Тоҷикистон (Tajikistan)",
+    "Таджикистон",
+    "Тәжікстан",
+    "Тәжікстан (Tajikistan)",
+    "Тажикистан",
+    "Тажикистан (Tajikistan)",
+    "Тәжікستان"
+  ],
+  "tanzania": [
+    "Tanzania"
+  ],
+  "thailand": [
+    "Thailand"
+  ],
+  "trinidad and tobago": [
+    "Trinidad and Tobago"
+  ],
+  "tunisia": [
+    "Tunisia",
+    "تونس"
+  ],
+  "turkey": [
+    "Turkey",
+    "ترکیه",
+    "튀르키예",
+    "Türkiye",
+    "Туркия",
+    "튀르키예 (Turkey)",
+    "터키",
+    "Turkiya",
+    "ترکیه (Turkey)",
+    "Turkiye",
+    "Türkiye (Çerkes/Adige mutfağı)",
+    "Türkiyə",
+    "तुर्की",
+    "Turquía",
+    "तुर्की (Turkey)",
+    "Түркия (Turkey)",
+    "Түркия"
+  ],
+  "turkmenistan": [
+    "Turkmenistan",
+    "Türkmenistan",
+    "ترکمنستان"
+  ],
+  "uganda": [
+    "Uganda"
+  ],
+  "ukraine": [
+    "Ukraine",
+    "Ukrayna",
+    "Ukraina"
+  ],
+  "united kingdom": [
+    "United Kingdom"
+  ],
+  "united states": [
+    "United States"
+  ],
+  "uzbekistan": [
+    "O'zbekiston",
+    "Uzbekistan",
+    "우즈베키스탄",
+    "우즈베키스탄 (Uzbekistan)",
+    "Özbekistan",
+    "Узбекистан",
+    "Ӯзбекистон",
+    "Узбекистон",
+    "ازبکستان",
+    "اوزبکستان",
+    "Oʻzbekiston",
+    "Ozbekistan",
+    "Özbəkistan",
+    "Ӯзбекистон (Uzbekistan)",
+    "उज़्बेकिस्तान",
+    "उज़्बेकिस्तान (Uzbekistan)",
+    "ازبکستان (Uzbekistan)",
+    "O'zbekiston (Uzbekistan)",
+    "Узбекистан (Uzbekistan)",
+    "Узбекистон (Uzbekistan)",
+    "Озбекистон",
+    "Өзбекстан",
+    "Өзбекстан (Uzbekistan)",
+    "उज्बेकिस्तान",
+    "Озбекистан",
+    "Үзбекистан",
+    "Üzbekistan"
+  ],
+  "venezuela": [
+    "Venezuela"
+  ],
+  "vietnam": [
+    "Vietnam",
+    "Вьетнам"
+  ],
+  "yemen": [
+    "यमन (Yemen)",
+    "Yemen"
+  ]
+}

@@ -1,0 +1,1082 @@
+============================================================
+ 
+  CLASH MATRIX REPORT 
+  Models  : gemini, gpt41, qwen3vl, gemma3 
+  Clusters: pilaf_cl, mantou_cl, samosa_cl, meatball_cl 
+  Total classified cells: 2920 
+  Neutral baseline: all countries tied for the highest neutral-English count are retained 
+============================================================
+ 
+ 
+LEVEL 1 - GLOBAL SUMMARY 
+------------------------------------------------------------
+ 
+  Visual-cue country most frequent (blue)  2040  (69.9%) 
+  Textual-cue country most frequent (green)   504  (17.3%) 
+  Visual-textual tie (purple)       17  (0.6%) 
+  Neutral-baseline country most frequent (yellow)   237  (8.1%) 
+  Region-level response most frequent (orange)     2  (0.1%) 
+  Other country most frequent (red)   120  (4.1%) 
+ 
+============================================================
+ 
+LEVEL 2 - PER MODEL 
+------------------------------------------------------------
+ 
+  Visual-cue country most frequent (blue)  [total: 2040] 
+    gemini        460 
+    gpt41         534 
+    qwen3vl       512 
+    gemma3        534 
+ 
+  Textual-cue country most frequent (green)  [total: 504] 
+    gemini        178 
+    gpt41         128 
+    qwen3vl        83 
+    gemma3        115 
+ 
+  Visual-textual tie (purple)  [total: 17] 
+    gemini          7 
+    gpt41           6 
+    qwen3vl         1 
+    gemma3          3 
+ 
+  Neutral-baseline country most frequent (yellow)  [total: 237] 
+    gemini         73 
+    gpt41          24 
+    qwen3vl       107 
+    gemma3         33 
+ 
+  Region-level response most frequent (orange)  [total: 2] 
+    gemini          1 
+    gpt41           0 
+    qwen3vl         0 
+    gemma3          1 
+ 
+  Other country most frequent (red)  [total: 120] 
+    gemini         11 
+    gpt41          38 
+    qwen3vl        27 
+    gemma3         44 
+ 
+ 
+============================================================
+ 
+LEVEL 3 - PER MODEL x CLUSTER 
+------------------------------------------------------------
+ 
+  Visual-cue country most frequent (blue) 
+    gemini        pilaf=120  mantou=126  samosa=69  meatball=145 
+    gpt41         pilaf=135  mantou=131  samosa=90  meatball=178 
+    qwen3vl       pilaf=157  mantou=105  samosa=76  meatball=174 
+    gemma3        pilaf=120  mantou=120  samosa=121  meatball=173 
+ 
+  Textual-cue country most frequent (green) 
+    gemini        pilaf=34  mantou=50  samosa=37  meatball=57 
+    gpt41         pilaf=25  mantou=36  samosa=40  meatball=27 
+    qwen3vl       pilaf=14  mantou=18  samosa=26  meatball=25 
+    gemma3        pilaf=30  mantou=35  samosa=23  meatball=27 
+ 
+  Visual-textual tie (purple) 
+    gemini        pilaf=1  mantou=3  samosa=2  meatball=1 
+    gpt41         pilaf=3  mantou=0  samosa=0  meatball=3 
+    qwen3vl       pilaf=0  mantou=1  samosa=0  meatball=0 
+    gemma3        pilaf=1  mantou=0  samosa=1  meatball=1 
+ 
+  Neutral-baseline country most frequent (yellow) 
+    gemini        pilaf=19  mantou=3  samosa=51  meatball=0 
+    gpt41         pilaf=0  mantou=1  samosa=23  meatball=0 
+    qwen3vl       pilaf=0  mantou=50  samosa=57  meatball=0 
+    gemma3        pilaf=22  mantou=1  samosa=10  meatball=0 
+ 
+  Region-level response most frequent (orange) 
+    gemini        pilaf=0  mantou=0  samosa=0  meatball=1 
+    gpt41         pilaf=0  mantou=0  samosa=0  meatball=0 
+    qwen3vl       pilaf=0  mantou=0  samosa=0  meatball=0 
+    gemma3        pilaf=0  mantou=1  samosa=0  meatball=0 
+ 
+  Other country most frequent (red) 
+    gemini        pilaf=0  mantou=3  samosa=0  meatball=8 
+    gpt41         pilaf=11  mantou=17  samosa=6  meatball=4 
+    qwen3vl       pilaf=3  mantou=11  samosa=0  meatball=13 
+    gemma3        pilaf=1  mantou=28  samosa=4  meatball=11 
+ 
+ 
+============================================================
+ 
+LEVEL 3.5 - CUE BREAKDOWN WITHIN VISUAL- AND TEXTUAL-CUE OUTCOMES 
+------------------------------------------------------------
+ 
+  Visual-cue-country outcomes by visual cue: 
+    flag          1079  (52.9% of all visual-cue-country outcomes) 
+    currency       665  (32.6% of all visual-cue-country outcomes) 
+    sign           296  (14.5% of all visual-cue-country outcomes) 
+ 
+  Textual-cue-country outcomes by textual cue: 
+    native          72  (14.3% of all textual-cue-country outcomes) 
+    endonym        207  (41.1% of all textual-cue-country outcomes) 
+    perspective    225  (44.6% of all textual-cue-country outcomes) 
+ 
+  Visual-cue-country outcomes by cue - per model: 
+    gemini        flag=253(55%)  currency=151(33%)  sign=56(12%) 
+    gpt41         flag=259(49%)  currency=183(34%)  sign=92(17%) 
+    qwen3vl       flag=265(52%)  currency=172(34%)  sign=75(15%) 
+    gemma3        flag=302(57%)  currency=159(30%)  sign=73(14%) 
+ 
+  Textual-cue-country outcomes by cue - per model: 
+    gemini        native=33(19%)  endonym=38(21%)  perspective=107(60%) 
+    gpt41         native=15(12%)  endonym=86(67%)  perspective=27(21%) 
+    qwen3vl       native=13(16%)  endonym=36(43%)  perspective=34(41%) 
+    gemma3        native=11(10%)  endonym=47(41%)  perspective=57(50%) 
+ 
+============================================================
+ 
+LEVEL 3.6 - CUE OUTCOME RATES (outcome cells / classified cells) 
+------------------------------------------------------------
+ 
+  Visual-cue-country outcome rates: 
+    flag          outcomes=1079  classified_cells=1280  rate=84.3% 
+    currency      outcomes=665  classified_cells=1008  rate=66.0% 
+    sign          outcomes=296  classified_cells=632  rate=46.8% 
+ 
+  Textual-cue-country outcome rates: 
+    native        outcomes=72  classified_cells=764  rate=9.4% 
+    endonym       outcomes=207  classified_cells=1056  rate=19.6% 
+    perspective   outcomes=225  classified_cells=1100  rate=20.5% 
+ 
+  Visual-cue-country outcome rates - per model: 
+    gemini        flag=253/320(79%)  currency=151/252(60%)  sign=56/158(35%) 
+    gpt41         flag=259/320(81%)  currency=183/252(73%)  sign=92/158(58%) 
+    qwen3vl       flag=265/320(83%)  currency=172/252(68%)  sign=75/158(47%) 
+    gemma3        flag=302/320(94%)  currency=159/252(63%)  sign=73/158(46%) 
+ 
+  Textual-cue-country outcome rates - per model: 
+    gemini        native=33/191(17%)  endonym=38/264(14%)  perspective=107/275(39%) 
+    gpt41         native=15/191(8%)  endonym=86/264(33%)  perspective=27/275(10%) 
+    qwen3vl       native=13/191(7%)  endonym=36/264(14%)  perspective=34/275(12%) 
+    gemma3        native=11/191(6%)  endonym=47/264(18%)  perspective=57/275(21%) 
+  Visual-cue-country outcome rates - per cluster: 
+    pilaf         flag=278/300(93%)  currency=194/248(78%)  sign=60/148(41%) 
+    mantou        flag=260/320(81%)  currency=164/264(62%)  sign=58/156(37%) 
+    samosa        flag=217/320(68%)  currency=88/212(42%)  sign=51/104(49%) 
+    meatball      flag=324/340(95%)  currency=219/284(77%)  sign=127/224(57%) 
+ 
+  Textual-cue-country outcome rates - per cluster: 
+    pilaf         native=10/180(6%)  endonym=41/236(17%)  perspective=52/280(19%) 
+    mantou        native=22/180(12%)  endonym=48/280(17%)  perspective=69/280(25%) 
+    samosa        native=23/156(15%)  endonym=60/240(25%)  perspective=43/240(18%) 
+    meatball      native=17/248(7%)  endonym=58/300(19%)  perspective=61/300(20%) 
+ 
+============================================================
+ 
+LEVEL 4 - ALL NON-BLUE CELLS (sorted by outcome share descending) 
+------------------------------------------------------------
+ 
+  Outcome share = most-frequent response share; 
+  for visual-textual ties, it is the combined share of both tied countries. 
+ 
+  Textual-cue country most frequent (green)  [504 cells] 
+  MODEL       CLUSTER       CELL                    OUTCOME SHARE 
+  -------------------------------------------------------- 
+  gemini      pilaf         AZ-sgn x UZ-end         100% 
+  gemini      mantou        TJ-flg x AF-per         100% 
+  gemini      mantou        TR-flg x UZ-per         100% 
+  gemini      samosa        AF-flg x IN-per         100% 
+  gemini      samosa        TR-flg x AF-per         100% 
+  gemini      samosa        AF-cur x IN-nat         100% 
+  gemini      samosa        AF-cur x IN-end         100% 
+  gemini      samosa        AF-cur x IN-per         100% 
+  gemini      samosa        TR-cur x IN-end         100% 
+  gemini      samosa        TR-cur x IN-per         100% 
+  gemini      samosa        TR-sgn x IN-end         100% 
+  gemini      samosa        TR-sgn x IN-per         100% 
+  gpt41       pilaf         IR-flg x UZ-end         100% 
+  gpt41       mantou        IR-flg x AF-end         100% 
+  gpt41       mantou        IR-flg x TR-end         100% 
+  gpt41       mantou        IR-cur x AF-end         100% 
+  gpt41       mantou        IR-sgn x AF-end         100% 
+  gpt41       samosa        TR-flg x IN-end         100% 
+  gpt41       samosa        TR-flg x UZ-end         100% 
+  gpt41       samosa        TR-flg x TJ-end         100% 
+  gpt41       samosa        KZ-flg x IN-end         100% 
+  gpt41       samosa        TJ-flg x IN-end         100% 
+  gpt41       samosa        TJ-flg x TR-end         100% 
+  gpt41       samosa        AF-cur x IN-nat         100% 
+  gpt41       samosa        AF-cur x IN-end         100% 
+  gpt41       samosa        TR-cur x TJ-end         100% 
+  gpt41       samosa        TR-sgn x IN-end         100% 
+  gpt41       samosa        TR-sgn x UZ-end         100% 
+  gpt41       meatball      ES-flg x IR-end         100% 
+  gpt41       meatball      ES-flg x IN-end         100% 
+  gpt41       meatball      ES-flg x AZ-end         100% 
+  qwen3vl     pilaf         TJ-flg x UZ-per         100% 
+  qwen3vl     pilaf         AZ-cur x UZ-per         100% 
+  qwen3vl     pilaf         AZ-sgn x UZ-end         100% 
+  qwen3vl     pilaf         AZ-sgn x UZ-per         100% 
+  qwen3vl     samosa        TJ-flg x IN-end         100% 
+  qwen3vl     samosa        AF-cur x IN-end         100% 
+  qwen3vl     samosa        AF-cur x IN-per         100% 
+  qwen3vl     samosa        UZ-cur x IN-end         100% 
+  qwen3vl     samosa        UZ-cur x IN-per         100% 
+  qwen3vl     samosa        TR-sgn x IN-end         100% 
+  qwen3vl     samosa        TR-sgn x IN-per         100% 
+  qwen3vl     meatball      IR-cur x TR-end         100% 
+  qwen3vl     meatball      AF-cur x TR-end         100% 
+  qwen3vl     meatball      AZ-sgn x IR-end         100% 
+  qwen3vl     meatball      AZ-sgn x TR-end         100% 
+  gemma3      pilaf         AZ-cur x UZ-end         100% 
+  gemma3      pilaf         IR-cur x UZ-per         100% 
+  gemma3      pilaf         AF-cur x UZ-end         100% 
+  gemma3      pilaf         AZ-sgn x UZ-end         100% 
+  gemma3      pilaf         AZ-sgn x UZ-per         100% 
+  gemma3      pilaf         IR-sgn x UZ-per         100% 
+  gemma3      mantou        IR-flg x TR-end         100% 
+  gemma3      mantou        UZ-cur x TR-end         100% 
+  gemma3      mantou        AF-cur x TR-end         100% 
+  gemma3      mantou        IR-cur x AF-end         100% 
+  gemma3      mantou        IR-cur x TR-end         100% 
+  gemma3      samosa        AF-cur x IN-end         100% 
+  gemma3      samosa        AF-cur x TR-end         100% 
+  gemma3      samosa        TR-sgn x IN-end         100% 
+  gemma3      meatball      IR-sgn x AZ-per         100% 
+  gemini      pilaf         IR-cur x UZ-end         98% 
+  gemini      samosa        TR-flg x IN-per         98% 
+  gemini      samosa        TJ-flg x IN-per         98% 
+  gemini      samosa        UZ-cur x IN-nat         98% 
+  gemini      samosa        UZ-cur x IN-per         98% 
+  gpt41       pilaf         IR-cur x UZ-end         98% 
+  gpt41       mantou        IR-flg x KR-end         98% 
+  gpt41       samosa        UZ-flg x IN-end         98% 
+  gpt41       samosa        UZ-cur x IN-end         98% 
+  gpt41       samosa        TR-cur x IN-end         98% 
+  gpt41       samosa        TR-cur x UZ-end         98% 
+  gpt41       meatball      AZ-flg x ES-end         98% 
+  gpt41       meatball      IN-sgn x IR-end         98% 
+  qwen3vl     samosa        UZ-flg x IN-end         98% 
+  qwen3vl     samosa        UZ-flg x IN-per         98% 
+  qwen3vl     samosa        KZ-flg x IN-end         98% 
+  qwen3vl     samosa        KZ-flg x IN-per         98% 
+  qwen3vl     samosa        TJ-flg x IN-nat         98% 
+  qwen3vl     samosa        TJ-flg x IN-per         98% 
+  qwen3vl     samosa        UZ-cur x IN-nat         98% 
+  qwen3vl     samosa        TR-cur x IN-end         98% 
+  qwen3vl     samosa        TR-cur x IN-per         98% 
+  qwen3vl     samosa        TR-sgn x IN-nat         98% 
+  qwen3vl     meatball      IR-sgn x TR-end         98% 
+  qwen3vl     meatball      AZ-sgn x TR-nat         98% 
+  gemma3      pilaf         AZ-cur x UZ-per         98% 
+  gemma3      pilaf         AF-cur x UZ-per         98% 
+  gemma3      pilaf         IN-sgn x UZ-end         98% 
+  gemma3      samosa        TJ-flg x IN-end         98% 
+  gemma3      samosa        AF-cur x UZ-end         98% 
+  gemma3      samosa        TR-sgn x UZ-end         98% 
+  gemini      mantou        IR-flg x AF-per         95% 
+  gemini      samosa        KZ-flg x IN-per         95% 
+  gemini      meatball      AZ-cur x TR-per         95% 
+  gemini      meatball      AZ-sgn x TR-end         95% 
+  gpt41       pilaf         AZ-sgn x UZ-end         95% 
+  gpt41       pilaf         IR-sgn x UZ-end         95% 
+  gpt41       samosa        AF-flg x TR-end         95% 
+  qwen3vl     pilaf         AZ-sgn x AF-per         95% 
+  qwen3vl     samosa        TR-flg x IN-end         95% 
+  qwen3vl     samosa        TR-flg x IN-per         95% 
+  qwen3vl     samosa        AF-cur x IN-nat         95% 
+  qwen3vl     meatball      AZ-cur x IR-end         95% 
+  qwen3vl     meatball      AZ-sgn x TR-per         95% 
+  gemma3      pilaf         IN-sgn x UZ-per         95% 
+  gemma3      mantou        IR-sgn x TR-end         95% 
+  gemma3      samosa        TJ-flg x TR-end         95% 
+  gemma3      samosa        AF-cur x UZ-per         95% 
+  gemma3      samosa        UZ-cur x IN-end         95% 
+  gemma3      samosa        UZ-cur x TR-end         95% 
+  gemma3      samosa        TR-cur x UZ-end         95% 
+  gemma3      meatball      AZ-sgn x TR-end         95% 
+  gemini      pilaf         IR-sgn x UZ-end         92% 
+  gemini      mantou        IR-flg x UZ-per         92% 
+  gemini      samosa        UZ-cur x IN-end         92% 
+  gemini      samosa        TR-sgn x IN-nat         92% 
+  gemini      meatball      IR-cur x AF-per         92% 
+  gemini      meatball      AZ-cur x AF-per         92% 
+  gemini      meatball      AZ-sgn x TR-nat         92% 
+  gemini      meatball      AZ-sgn x TR-per         92% 
+  gpt41       pilaf         IR-cur x TJ-end         92% 
+  gpt41       mantou        IR-flg x AF-per         92% 
+  gpt41       mantou        TR-flg x KR-end         92% 
+  gpt41       mantou        TR-sgn x AF-end         92% 
+  gpt41       samosa        UZ-cur x IN-nat         92% 
+  qwen3vl     pilaf         AZ-sgn x IR-end         92% 
+  qwen3vl     pilaf         IR-sgn x UZ-per         92% 
+  qwen3vl     samosa        TR-cur x IN-nat         92% 
+  gemini      mantou        IR-flg x TR-per         90% 
+  gemini      samosa        UZ-flg x IN-per         90% 
+  gemini      samosa        TR-flg x IN-end         90% 
+  gemini      meatball      IR-cur x TR-per         90% 
+  gemini      meatball      IR-sgn x TR-per         90% 
+  gemini      meatball      IR-sgn x AF-per         90% 
+  gemini      meatball      AZ-sgn x AF-per         90% 
+  gpt41       mantou        IR-cur x TR-end         90% 
+  gpt41       mantou        IR-sgn x TR-end         90% 
+  gpt41       mantou        IR-sgn x KR-end         90% 
+  gpt41       samosa        AF-cur x UZ-end         90% 
+  gpt41       samosa        AF-cur x IN-per         90% 
+  gpt41       samosa        UZ-cur x IN-per         90% 
+  gpt41       samosa        TR-sgn x IN-per         90% 
+  gpt41       meatball      IN-flg x ES-end         90% 
+  qwen3vl     meatball      TR-sgn x IR-end         90% 
+  gemma3      pilaf         IN-flg x UZ-end         90% 
+  gemma3      mantou        KR-sgn x TR-end         90% 
+  gemma3      samosa        KZ-flg x IN-end         90% 
+  gemma3      samosa        TR-cur x IN-end         90% 
+  gemma3      samosa        TR-sgn x UZ-per         90% 
+  gemma3      meatball      AZ-cur x TR-end         90% 
+  gemini      mantou        IR-flg x TJ-per         88% 
+  gemini      samosa        TR-flg x UZ-per         88% 
+  gemini      samosa        KZ-flg x IN-end         88% 
+  gemini      samosa        TR-cur x IN-nat         88% 
+  gemini      meatball      AF-cur x TR-per         88% 
+  gpt41       samosa        KZ-flg x TR-end         88% 
+  gpt41       samosa        AF-cur x TR-end         88% 
+  gpt41       samosa        TR-sgn x IN-nat         88% 
+  gpt41       samosa        TR-sgn x TJ-end         88% 
+  gpt41       meatball      AZ-sgn x TR-nat         88% 
+  qwen3vl     pilaf         AZ-sgn x UZ-nat         88% 
+  qwen3vl     pilaf         AZ-sgn x IR-per         88% 
+  qwen3vl     meatball      IR-sgn x TR-per         88% 
+  gemma3      pilaf         UZ-cur x TJ-per         88% 
+  gemma3      pilaf         AZ-cur x UZ-nat         88% 
+  gemma3      pilaf         IR-sgn x AZ-per         88% 
+  gemma3      mantou        KR-cur x TR-end         88% 
+  gemma3      meatball      AF-cur x TR-end         88% 
+  gemma3      meatball      IN-sgn x TR-end         88% 
+  gemini      pilaf         AZ-cur x UZ-per         85% 
+  gemini      meatball      IR-sgn x IN-end         85% 
+  gemini      meatball      AZ-sgn x IN-end         85% 
+  gpt41       pilaf         AZ-sgn x UZ-per         85% 
+  gpt41       mantou        IR-flg x UZ-per         85% 
+  gpt41       mantou        IR-cur x UZ-per         85% 
+  gpt41       mantou        IR-cur x AF-per         85% 
+  gpt41       samosa        AF-flg x IN-end         85% 
+  gpt41       samosa        TR-flg x IN-per         85% 
+  gpt41       samosa        KZ-flg x IN-per         85% 
+  gpt41       samosa        UZ-cur x TR-end         85% 
+  gpt41       samosa        TR-cur x IN-nat         85% 
+  qwen3vl     pilaf         AZ-sgn x TJ-per         85% 
+  qwen3vl     pilaf         IR-sgn x AF-per         85% 
+  qwen3vl     mantou        TJ-flg x UZ-per         85% 
+  gemma3      meatball      IN-cur x TR-end         85% 
+  gemini      pilaf         IR-sgn x TJ-end         82% 
+  gemini      mantou        TJ-flg x UZ-per         82% 
+  gemini      samosa        KZ-flg x AF-per         82% 
+  gemini      samosa        TJ-flg x IN-nat         82% 
+  gpt41       pilaf         IN-flg x UZ-end         82% 
+  gpt41       pilaf         AZ-cur x UZ-per         82% 
+  gpt41       mantou        IR-sgn x UZ-per         82% 
+  gpt41       mantou        IR-sgn x AF-per         82% 
+  gpt41       mantou        KR-sgn x AF-end         82% 
+  gpt41       samosa        KZ-flg x IN-nat         82% 
+  gpt41       samosa        TR-cur x IN-per         82% 
+  gpt41       samosa        IN-sgn x TR-end         82% 
+  gpt41       meatball      AZ-sgn x ES-end         82% 
+  qwen3vl     mantou        AF-cur x TR-end         82% 
+  qwen3vl     meatball      AZ-cur x TR-per         82% 
+  gemma3      pilaf         UZ-cur x AZ-per         82% 
+  gemma3      samosa        UZ-flg x IN-end         82% 
+  gemma3      meatball      AF-cur x ES-end         82% 
+  gemma3      meatball      TR-sgn x IR-per         82% 
+  gemma3      meatball      TR-sgn x AZ-per         82% 
+  gemini      meatball      IR-sgn x TR-nat         80% 
+  gpt41       pilaf         AF-cur x TJ-end         80% 
+  gpt41       meatball      ES-flg x TR-end         80% 
+  gpt41       meatball      TR-sgn x AZ-end         80% 
+  qwen3vl     samosa        TR-flg x IN-nat         80% 
+  gemma3      pilaf         AZ-sgn x UZ-nat         80% 
+  gemma3      mantou        IR-flg x UZ-per         80% 
+  gemma3      mantou        AF-cur x UZ-per         80% 
+  gemma3      mantou        IR-cur x KR-end         80% 
+  gemma3      mantou        IR-cur x UZ-per         80% 
+  gemma3      samosa        AF-flg x IN-end         80% 
+  gemma3      meatball      AZ-sgn x TR-per         80% 
+  gemini      pilaf         IN-sgn x UZ-end         78% 
+  gemini      mantou        TJ-flg x TR-per         78% 
+  gemini      samosa        KZ-flg x IN-nat         78% 
+  gemini      samosa        KZ-flg x UZ-per         78% 
+  gemini      samosa        UZ-cur x AF-per         78% 
+  gemini      samosa        TR-cur x AF-per         78% 
+  gemini      meatball      AZ-cur x TR-nat         78% 
+  gemini      meatball      AZ-cur x IR-per         78% 
+  gpt41       mantou        IR-cur x UZ-nat         78% 
+  gpt41       mantou        TR-sgn x KR-end         78% 
+  gpt41       meatball      IR-flg x ES-end         78% 
+  gemma3      pilaf         IN-cur x UZ-end         78% 
+  gemma3      mantou        TR-cur x UZ-per         78% 
+  gemma3      samosa        TR-cur x UZ-per         78% 
+  gemma3      meatball      AZ-sgn x TR-nat         78% 
+  gemma3      meatball      AZ-sgn x IR-per         78% 
+  gemini      pilaf         AZ-sgn x UZ-per         75% 
+  gemini      mantou        IR-flg x AF-end         75% 
+  gemini      mantou        TR-flg x AF-per         75% 
+  gemini      samosa        TR-flg x IN-nat         75% 
+  gpt41       samosa        TJ-flg x IN-per         75% 
+  gpt41       meatball      AZ-sgn x TR-end         75% 
+  qwen3vl     mantou        IR-flg x TR-end         75% 
+  qwen3vl     mantou        TR-sgn x UZ-per         75% 
+  qwen3vl     meatball      ES-flg x TR-end         75% 
+  qwen3vl     meatball      IN-sgn x IR-end         75% 
+  gemma3      pilaf         IN-sgn x AF-per         75% 
+  gemma3      samosa        UZ-cur x TJ-per         75% 
+  gemini      pilaf         IR-sgn x UZ-per         72% 
+  gemini      samosa        TR-cur x UZ-per         72% 
+  gemini      meatball      IR-flg x TR-per         72% 
+  gemini      meatball      IN-sgn x AF-per         72% 
+  gpt41       mantou        IR-cur x KR-end         72% 
+  gpt41       mantou        KR-cur x AF-end         72% 
+  gpt41       samosa        UZ-flg x TR-end         72% 
+  gpt41       meatball      IN-cur x IR-end         72% 
+  gemma3      pilaf         IN-flg x UZ-per         72% 
+  gemma3      pilaf         AZ-sgn x AF-per         72% 
+  gemma3      mantou        AF-cur x UZ-nat         72% 
+  gemma3      mantou        IR-cur x TR-nat         72% 
+  gemma3      samosa        IN-sgn x TR-end         72% 
+  gemma3      meatball      AZ-cur x ES-end         72% 
+  gemma3      meatball      AZ-cur x IR-per         72% 
+  gemma3      meatball      TR-sgn x ES-end         72% 
+  gemma3      meatball      AZ-sgn x ES-end         72% 
+  gemini      pilaf         IR-cur x UZ-per         70% 
+  gemini      pilaf         AZ-sgn x UZ-nat         70% 
+  gemini      mantou        UZ-flg x AF-per         70% 
+  gemini      samosa        TJ-flg x AF-per         70% 
+  gemini      meatball      AF-cur x IR-per         70% 
+  gemini      meatball      AZ-cur x ES-per         70% 
+  gemini      meatball      IR-sgn x AZ-per         70% 
+  gpt41       pilaf         IR-cur x IN-end         70% 
+  gpt41       pilaf         AZ-sgn x TJ-end         70% 
+  gpt41       mantou        TJ-flg x KR-end         70% 
+  gpt41       mantou        KR-flg x AF-end         70% 
+  gpt41       samosa        IN-sgn x UZ-end         70% 
+  gpt41       meatball      AF-flg x ES-end         70% 
+  gpt41       meatball      IR-sgn x ES-end         70% 
+  qwen3vl     pilaf         IR-cur x UZ-end         70% 
+  qwen3vl     pilaf         AZ-sgn x IN-per         70% 
+  gemma3      pilaf         UZ-cur x AF-per         70% 
+  gemma3      pilaf         IR-cur x UZ-end         70% 
+  gemma3      samosa        UZ-cur x AF-per         70% 
+  gemini      pilaf         IN-cur x UZ-end         68% 
+  gemini      pilaf         IR-sgn x IN-end         68% 
+  gemini      pilaf         IN-sgn x UZ-per         68% 
+  gemini      samosa        KZ-flg x TR-end         68% 
+  gemini      meatball      AZ-flg x AF-per         68% 
+  gemini      meatball      AF-cur x TR-nat         68% 
+  gpt41       pilaf         IR-flg x TJ-end         68% 
+  gpt41       mantou        TR-sgn x UZ-per         68% 
+  gpt41       samosa        TR-flg x IN-nat         68% 
+  gpt41       samosa        IN-sgn x TJ-end         68% 
+  gemma3      mantou        IR-cur x UZ-nat         68% 
+  gemma3      mantou        TR-sgn x UZ-per         68% 
+  gemma3      mantou        KR-sgn x TR-per         68% 
+  gemma3      samosa        TR-sgn x IN-per         68% 
+  gemma3      meatball      AZ-cur x TR-per         68% 
+  gemini      pilaf         IR-flg x UZ-per         65% 
+  gemini      pilaf         IR-cur x TJ-end         65% 
+  gemini      pilaf         IR-sgn x AF-per         65% 
+  gemini      mantou        IR-cur x TR-end         65% 
+  gemini      samosa        UZ-cur x TR-end         65% 
+  gemini      meatball      AZ-cur x TR-end         65% 
+  gemini      meatball      TR-sgn x AF-per         65% 
+  gemini      meatball      AZ-sgn x ES-per         65% 
+  gpt41       pilaf         IN-sgn x UZ-end         65% 
+  gpt41       mantou        TJ-flg x TR-end         65% 
+  gpt41       mantou        IR-sgn x UZ-nat         65% 
+  gpt41       samosa        UZ-flg x IN-per         65% 
+  gpt41       meatball      AZ-cur x TR-nat         65% 
+  gpt41       meatball      AZ-cur x IN-end         65% 
+  qwen3vl     mantou        KR-flg x TR-end         65% 
+  qwen3vl     mantou        AF-cur x UZ-per         65% 
+  qwen3vl     mantou        IR-sgn x TR-end         65% 
+  qwen3vl     samosa        AF-flg x IN-per         65% 
+  gemma3      mantou        AF-cur x TR-nat         65% 
+  gemma3      meatball      IN-sgn x ES-end         65% 
+  gemini      pilaf         IN-flg x UZ-end         62% 
+  gemini      mantou        IR-flg x KR-per         62% 
+  gemini      mantou        IR-cur x AF-end         62% 
+  gemini      mantou        IR-cur x AF-per         62% 
+  gemini      samosa        TR-sgn x UZ-per         62% 
+  gemini      meatball      AF-cur x AZ-per         62% 
+  gemini      meatball      IN-sgn x TR-per         62% 
+  gpt41       pilaf         IR-sgn x TJ-end         62% 
+  gpt41       pilaf         IR-sgn x IN-end         62% 
+  qwen3vl     mantou        IR-cur x TR-end         62% 
+  qwen3vl     mantou        KR-sgn x TR-end         62% 
+  qwen3vl     meatball      AF-cur x IR-nat         62% 
+  gemma3      pilaf         IR-cur x AF-per         62% 
+  gemma3      pilaf         IR-sgn x AF-per         62% 
+  gemma3      mantou        AF-cur x KR-end         62% 
+  gemma3      mantou        IR-sgn x TR-per         62% 
+  gemini      pilaf         IR-flg x UZ-end         60% 
+  gemini      pilaf         IR-flg x TJ-per         60% 
+  gemini      pilaf         IR-cur x UZ-nat         60% 
+  gemini      pilaf         IR-cur x AF-per         60% 
+  gemini      mantou        AF-flg x UZ-per         60% 
+  gemini      mantou        IR-cur x UZ-per         60% 
+  gemini      mantou        IR-sgn x AF-per         60% 
+  gemini      mantou        TR-sgn x AF-per         60% 
+  gemini      mantou        TR-sgn x KR-per         60% 
+  gemini      samosa        AF-flg x IN-nat         60% 
+  gemini      meatball      AF-cur x ES-per         60% 
+  gemini      meatball      AZ-cur x IR-nat         60% 
+  gemini      meatball      IR-sgn x ES-per         60% 
+  gpt41       pilaf         AZ-flg x UZ-end         60% 
+  gpt41       pilaf         IR-cur x UZ-per         60% 
+  gpt41       pilaf         IN-cur x UZ-end         60% 
+  gpt41       pilaf         AF-cur x UZ-end         60% 
+  gpt41       meatball      TR-flg x ES-end         60% 
+  gpt41       meatball      IN-cur x ES-end         60% 
+  gpt41       meatball      AZ-cur x ES-end         60% 
+  gpt41       meatball      TR-sgn x ES-end         60% 
+  gemma3      pilaf         IR-sgn x UZ-end         60% 
+  gemma3      pilaf         IR-sgn x TJ-per         60% 
+  gemma3      meatball      TR-cur x IR-per         60% 
+  gemma3      meatball      IN-sgn x IR-per         60% 
+  gemma3      meatball      IN-sgn x AZ-per         60% 
+  gemini      pilaf         TJ-flg x UZ-per         57% 
+  gemini      pilaf         IR-sgn x TJ-per         57% 
+  gemini      mantou        IR-flg x TR-end         57% 
+  gemini      mantou        AF-cur x TR-end         57% 
+  gemini      mantou        TR-sgn x UZ-per         57% 
+  gemini      samosa        UZ-flg x IN-nat         57% 
+  gemini      meatball      IN-cur x IR-per         57% 
+  gpt41       pilaf         IN-flg x TJ-end         57% 
+  gpt41       mantou        TR-cur x AF-end         57% 
+  gpt41       mantou        TR-cur x KR-end         57% 
+  gpt41       meatball      IN-flg x IR-end         57% 
+  gpt41       meatball      AZ-sgn x TR-per         57% 
+  qwen3vl     mantou        IR-cur x UZ-per         57% 
+  qwen3vl     mantou        IR-sgn x UZ-per         57% 
+  qwen3vl     meatball      IN-cur x IR-end         57% 
+  qwen3vl     meatball      AF-cur x TR-per         57% 
+  qwen3vl     meatball      AZ-cur x ES-end         57% 
+  qwen3vl     meatball      TR-sgn x ES-end         57% 
+  gemma3      mantou        IR-flg x AF-per         57% 
+  gemma3      mantou        IR-sgn x UZ-per         57% 
+  gemma3      mantou        IR-sgn x AF-per         57% 
+  gemma3      meatball      IN-flg x TR-end         57% 
+  gemma3      meatball      AF-cur x AZ-end         57% 
+  gemma3      meatball      AF-cur x IR-per         57% 
+  gemini      pilaf         IR-cur x TJ-per         55% 
+  gemini      pilaf         IR-sgn x UZ-nat         55% 
+  gemini      pilaf         IN-sgn x AF-per         55% 
+  gemini      mantou        IR-flg x KR-nat         55% 
+  gemini      mantou        KR-flg x UZ-per         55% 
+  gemini      mantou        IR-cur x TR-per         55% 
+  gemini      mantou        IR-sgn x UZ-per         55% 
+  gemini      samosa        TJ-flg x TR-end         55% 
+  gemini      meatball      IR-cur x AZ-per         55% 
+  gemini      meatball      IN-cur x TR-per         55% 
+  gemini      meatball      AF-cur x IN-per         55% 
+  gemini      meatball      IN-sgn x TR-nat         55% 
+  gpt41       samosa        IN-flg x TR-end         55% 
+  gpt41       meatball      AF-cur x ES-end         55% 
+  qwen3vl     samosa        UZ-flg x IN-nat         55% 
+  qwen3vl     samosa        TJ-flg x UZ-end         55% 
+  qwen3vl     meatball      AF-cur x IR-end         55% 
+  qwen3vl     meatball      AF-cur x ES-end         55% 
+  qwen3vl     meatball      AZ-sgn x ES-end         55% 
+  gemma3      pilaf         IN-sgn x IR-per         55% 
+  gemma3      mantou        UZ-cur x TJ-per         55% 
+  gemma3      meatball      AF-cur x AZ-per         55% 
+  gemini      pilaf         AZ-cur x TJ-per         52% 
+  gemini      pilaf         IN-cur x UZ-per         52% 
+  gemini      mantou        AF-flg x KR-per         52% 
+  gemini      mantou        IR-flg x TR-nat         52% 
+  gemini      mantou        IR-cur x KR-end         52% 
+  gemini      mantou        IR-sgn x TR-nat         52% 
+  gemini      mantou        IR-sgn x AF-end         52% 
+  gemini      mantou        IR-sgn x TR-end         52% 
+  gemini      samosa        UZ-flg x TR-end         52% 
+  gemini      meatball      IR-cur x TR-nat         52% 
+  gemini      meatball      AF-cur x IR-nat         52% 
+  gemini      meatball      AF-cur x TR-end         52% 
+  gemini      meatball      IR-sgn x TR-end         52% 
+  gpt41       pilaf         IR-flg x IN-end         52% 
+  qwen3vl     pilaf         AF-cur x IN-per         52% 
+  qwen3vl     mantou        IR-flg x UZ-per         52% 
+  qwen3vl     samosa        KZ-flg x IN-nat         52% 
+  qwen3vl     meatball      IR-sgn x TR-nat         52% 
+  gemma3      mantou        IR-flg x TR-per         52% 
+  gemini      pilaf         IN-flg x UZ-per         50% 
+  gemini      pilaf         IN-sgn x TJ-end         50% 
+  gemini      mantou        IR-cur x TR-nat         50% 
+  gemini      mantou        IR-cur x KR-nat         50% 
+  gemini      mantou        TR-cur x UZ-per         50% 
+  gemini      mantou        IR-sgn x TJ-per         50% 
+  gemini      mantou        IR-sgn x TR-per         50% 
+  gemini      mantou        IR-sgn x KR-per         50% 
+  gemini      meatball      IR-cur x IN-per         50% 
+  gemini      meatball      IN-cur x TR-nat         50% 
+  gemini      meatball      IR-sgn x IN-per         50% 
+  gemini      meatball      TR-sgn x ES-per         50% 
+  gpt41       pilaf         AZ-flg x TJ-end         50% 
+  gpt41       meatball      AF-cur x TR-per         50% 
+  gpt41       meatball      IR-sgn x TR-nat         50% 
+  gemini      pilaf         IR-flg x AF-per         48% 
+  gemini      pilaf         IR-sgn x IN-per         48% 
+  gemini      pilaf         IN-sgn x UZ-nat         48% 
+  gemini      mantou        AF-cur x UZ-per         48% 
+  gemini      mantou        IR-sgn x KR-nat         48% 
+  gemini      mantou        KR-sgn x UZ-per         48% 
+  gemini      meatball      TR-cur x AF-per         48% 
+  gemini      meatball      IN-sgn x IR-per         48% 
+  gemini      meatball      IN-sgn x ES-per         48% 
+  gpt41       mantou        IR-cur x TR-nat         48% 
+  qwen3vl     meatball      IR-cur x TR-per         48% 
+  gemini      mantou        IR-cur x TJ-per         45% 
+  gemini      mantou        IR-cur x KR-per         45% 
+  gemini      mantou        TR-sgn x KR-nat         45% 
+  gemini      mantou        TR-sgn x TJ-per         45% 
+  gemini      meatball      IR-cur x ES-per         45% 
+  gemini      meatball      AZ-cur x IN-per         45% 
+  gemini      meatball      IN-sgn x TR-end         45% 
+  gemini      meatball      IN-sgn x AZ-per         45% 
+  gemini      meatball      TR-sgn x IN-per         45% 
+  gemini      meatball      AZ-sgn x IR-per         45% 
+  gpt41       pilaf         IR-cur x UZ-nat         45% 
+  gpt41       mantou        IR-flg x KR-per         45% 
+  gpt41       mantou        KR-sgn x UZ-per         45% 
+  gpt41       meatball      AZ-sgn x IN-end         45% 
+  qwen3vl     mantou        KR-cur x TR-end         45% 
+  qwen3vl     meatball      IR-sgn x AF-per         45% 
+  gemma3      pilaf         IN-cur x UZ-per         45% 
+  gemma3      mantou        AF-cur x TR-per         45% 
+  gemma3      mantou        IR-cur x TR-per         45% 
+  gemma3      mantou        IR-sgn x UZ-nat         45% 
+  gemma3      samosa        UZ-cur x TR-per         45% 
+  gemini      mantou        IR-sgn x KR-end         42% 
+  gpt41       pilaf         IR-sgn x AF-per         42% 
+  gpt41       mantou        IR-sgn x TR-per         42% 
+  qwen3vl     mantou        AF-cur x KR-per         42% 
+  qwen3vl     mantou        IR-sgn x TJ-per         42% 
+  qwen3vl     meatball      IR-sgn x ES-end         42% 
+  gemma3      mantou        KR-sgn x UZ-per         42% 
+  gemma3      meatball      AF-cur x TR-per         42% 
+  gemini      pilaf         AZ-sgn x AF-per         40% 
+  gemini      meatball      AZ-sgn x ES-end         40% 
+  gemini      meatball      AZ-sgn x IN-per         40% 
+  qwen3vl     mantou        AF-cur x TR-nat         40% 
+  qwen3vl     mantou        IR-sgn x KR-end         40% 
+  gemma3      mantou        IR-cur x AF-per         40% 
+  gemma3      mantou        IR-sgn x TR-nat         40% 
+  gemma3      meatball      IN-sgn x AF-per         40% 
+  gemini      mantou        IR-cur x UZ-nat         38% 
+  gemma3      pilaf         AZ-sgn x IR-per         38% 
+  gemma3      pilaf         IN-sgn x UZ-nat         38% 
+  gemma3      mantou        UZ-cur x TR-nat         38% 
+  gemini      meatball      IN-cur x AZ-per         35% 
+  gpt41       mantou        IR-sgn x TR-nat         35% 
+  gpt41       mantou        IR-sgn x KR-per         35% 
+  qwen3vl     mantou        IR-sgn x TR-per         35% 
+  gemma3      samosa        UZ-cur x IN-per         35% 
+  gemini      mantou        AF-cur x TR-nat         32% 
+  gemma3      mantou        TR-sgn x KR-end         32% 
+  gemini      mantou        IR-sgn x UZ-nat         30% 
+  gemini      meatball      AF-cur x IN-nat         30% 
+  gpt41       pilaf         IR-sgn x IN-nat         30% 
+  gpt41       mantou        IR-cur x TR-per         30% 
+  gpt41       mantou        IR-cur x KR-per         30% 
+  gemma3      mantou        IR-sgn x KR-end         30% 
+ 
+  Visual-textual tie (purple)  [17 cells] 
+  MODEL       CLUSTER       CELL                    OUTCOME SHARE 
+  -------------------------------------------------------- 
+  gemini      pilaf         AZ-flg x UZ-per         100% 
+  gemini      samosa        UZ-flg x AF-per         100% 
+  gemini      samosa        TJ-flg x IN-end         100% 
+  gpt41       pilaf         AZ-flg x IN-end         100% 
+  gpt41       pilaf         AZ-cur x IN-end         100% 
+  gpt41       meatball      IR-cur x ES-end         100% 
+  gpt41       meatball      IR-sgn x IN-end         100% 
+  gpt41       meatball      IN-sgn x AZ-end         100% 
+  qwen3vl     mantou        TJ-flg x TR-end         100% 
+  gemma3      samosa        IN-cur x TR-end         100% 
+  gemini      meatball      IN-cur x ES-per         95% 
+  gemma3      pilaf         IR-sgn x UZ-nat         95% 
+  gemma3      meatball      TR-cur x ES-end         95% 
+  gemini      mantou        AF-cur x KR-nat         85% 
+  gpt41       pilaf         IR-cur x IN-per         85% 
+  gemini      mantou        KR-sgn x TJ-per         80% 
+  gemini      mantou        IR-flg x KR-end         70% 
+ 
+  Neutral-baseline country most frequent (yellow)  [237 cells] 
+  MODEL       CLUSTER       CELL                    OUTCOME SHARE 
+  -------------------------------------------------------- 
+  gemini      samosa        TR-cur x AF-end         100% 
+  gpt41       samosa        TR-sgn x AF-end         100% 
+  qwen3vl     samosa        TR-sgn x AF-per         100% 
+  gemma3      pilaf         AZ-cur x TJ-end         100% 
+  gemma3      pilaf         AF-cur x TJ-end         100% 
+  gemma3      pilaf         AZ-sgn x TJ-end         100% 
+  gemini      samosa        AF-cur x TR-nat         98% 
+  gemini      samosa        AF-cur x UZ-end         98% 
+  gemini      samosa        AF-cur x KZ-end         98% 
+  gemini      samosa        TR-sgn x AF-end         98% 
+  gpt41       samosa        TR-flg x AF-end         98% 
+  gpt41       samosa        KZ-flg x AF-end         98% 
+  qwen3vl     samosa        AF-cur x UZ-per         98% 
+  qwen3vl     samosa        AF-cur x TR-per         98% 
+  qwen3vl     samosa        AF-cur x KZ-per         98% 
+  qwen3vl     samosa        AF-cur x TJ-per         98% 
+  qwen3vl     samosa        UZ-cur x AF-end         98% 
+  qwen3vl     samosa        TR-sgn x AF-end         98% 
+  gemma3      samosa        TR-sgn x AF-end         98% 
+  gemini      samosa        AF-cur x UZ-nat         95% 
+  gemini      samosa        AF-cur x TR-per         95% 
+  qwen3vl     samosa        TJ-flg x KZ-per         95% 
+  qwen3vl     samosa        UZ-cur x TR-per         95% 
+  qwen3vl     samosa        TR-cur x AF-end         95% 
+  qwen3vl     samosa        TR-cur x KZ-end         95% 
+  qwen3vl     samosa        TR-sgn x KZ-nat         95% 
+  qwen3vl     samosa        TR-sgn x KZ-end         95% 
+  qwen3vl     samosa        TR-sgn x TJ-end         95% 
+  qwen3vl     samosa        TR-sgn x TJ-per         95% 
+  gemma3      samosa        TR-sgn x TJ-end         95% 
+  gemini      samosa        AF-cur x KZ-nat         92% 
+  gemini      samosa        AF-cur x TJ-end         92% 
+  gemini      samosa        AF-cur x KZ-per         92% 
+  gemini      samosa        UZ-cur x AF-end         92% 
+  gemini      samosa        TR-cur x TJ-end         92% 
+  gemini      samosa        TR-sgn x UZ-nat         92% 
+  gemini      samosa        TR-sgn x KZ-nat         92% 
+  gemini      samosa        TR-sgn x TJ-end         92% 
+  qwen3vl     samosa        TJ-flg x AF-per         92% 
+  qwen3vl     samosa        TJ-flg x TR-per         92% 
+  qwen3vl     samosa        AF-cur x KZ-nat         92% 
+  qwen3vl     samosa        TR-cur x AF-per         92% 
+  qwen3vl     samosa        TR-sgn x UZ-nat         92% 
+  qwen3vl     samosa        TR-sgn x KZ-per         92% 
+  gemma3      pilaf         IR-cur x TJ-end         92% 
+  gemma3      samosa        UZ-cur x TJ-end         92% 
+  gemini      samosa        TR-cur x KZ-nat         90% 
+  gemini      samosa        TR-cur x UZ-end         90% 
+  gemini      samosa        TR-cur x KZ-end         90% 
+  gemini      samosa        TR-sgn x KZ-per         90% 
+  gpt41       samosa        TR-cur x AF-end         90% 
+  gpt41       samosa        TR-sgn x AF-per         90% 
+  qwen3vl     samosa        TJ-flg x UZ-nat         90% 
+  qwen3vl     samosa        TR-cur x TJ-end         90% 
+  qwen3vl     samosa        TR-cur x TJ-per         90% 
+  qwen3vl     samosa        TR-sgn x UZ-end         90% 
+  gemma3      pilaf         AZ-cur x TJ-per         90% 
+  gemma3      samosa        UZ-cur x AF-end         90% 
+  gemini      samosa        TR-sgn x UZ-end         88% 
+  gpt41       samosa        AF-cur x TR-nat         88% 
+  qwen3vl     samosa        TR-cur x KZ-per         88% 
+  qwen3vl     samosa        TR-sgn x UZ-per         88% 
+  gemma3      samosa        TR-sgn x AF-per         88% 
+  gemini      samosa        AF-cur x TJ-per         85% 
+  gemini      samosa        TR-cur x UZ-nat         85% 
+  gemini      samosa        TR-cur x KZ-per         85% 
+  gemini      samosa        TR-sgn x KZ-end         85% 
+  gpt41       samosa        UZ-cur x AF-per         85% 
+  qwen3vl     samosa        UZ-flg x KZ-per         85% 
+  qwen3vl     samosa        AF-cur x TR-nat         85% 
+  qwen3vl     samosa        TR-cur x UZ-end         85% 
+  qwen3vl     samosa        TR-cur x UZ-per         85% 
+  gemma3      pilaf         AF-cur x TJ-per         85% 
+  gemma3      pilaf         AZ-sgn x TJ-per         85% 
+  gemini      samosa        TR-flg x KZ-per         82% 
+  gemini      samosa        UZ-cur x TR-nat         82% 
+  gemini      samosa        UZ-cur x TR-per         82% 
+  qwen3vl     samosa        KZ-flg x AF-per         82% 
+  qwen3vl     samosa        KZ-flg x TJ-per         82% 
+  qwen3vl     samosa        TJ-flg x AF-end         82% 
+  gemma3      pilaf         IR-flg x TJ-end         82% 
+  gemini      samosa        TR-flg x AF-end         80% 
+  gemini      samosa        KZ-flg x AF-end         80% 
+  gpt41       samosa        AF-cur x TR-per         80% 
+  qwen3vl     samosa        UZ-flg x TJ-per         80% 
+  qwen3vl     samosa        TJ-flg x UZ-per         80% 
+  qwen3vl     samosa        AF-cur x TR-end         80% 
+  qwen3vl     samosa        UZ-cur x AF-per         80% 
+  gemini      samosa        UZ-cur x TJ-end         78% 
+  gpt41       samosa        TR-sgn x UZ-nat         78% 
+  qwen3vl     mantou        IR-cur x KR-nat         78% 
+  qwen3vl     samosa        TJ-flg x TR-nat         78% 
+  qwen3vl     samosa        UZ-cur x TR-nat         78% 
+  gemma3      pilaf         IR-cur x TJ-per         78% 
+  gemini      pilaf         AZ-sgn x TJ-end         75% 
+  gemini      pilaf         AZ-sgn x IR-end         75% 
+  gemini      pilaf         AZ-sgn x AF-end         75% 
+  gemini      samosa        TR-sgn x AF-per         75% 
+  gpt41       samosa        TR-cur x AF-per         75% 
+  gemma3      pilaf         IN-sgn x TJ-end         75% 
+  gpt41       samosa        TR-sgn x KZ-per         72% 
+  gpt41       samosa        TR-sgn x TJ-per         72% 
+  qwen3vl     samosa        UZ-cur x KZ-per         72% 
+  qwen3vl     samosa        TR-cur x UZ-nat         72% 
+  gemini      mantou        IR-cur x UZ-end         70% 
+  gemini      samosa        UZ-cur x KZ-nat         70% 
+  gemini      samosa        TR-sgn x TJ-per         70% 
+  qwen3vl     mantou        AF-cur x KR-nat         70% 
+  qwen3vl     mantou        KR-sgn x IR-per         70% 
+  qwen3vl     samosa        KZ-flg x UZ-per         70% 
+  gemma3      pilaf         AF-cur x AZ-per         70% 
+  gemma3      pilaf         IN-sgn x TJ-per         70% 
+  gemini      samosa        TJ-flg x TR-nat         68% 
+  gemini      samosa        AF-cur x UZ-per         68% 
+  gemini      samosa        TR-cur x TJ-per         68% 
+  gpt41       samosa        AF-cur x KZ-nat         68% 
+  qwen3vl     samosa        UZ-flg x AF-per         68% 
+  qwen3vl     samosa        UZ-cur x TJ-per         68% 
+  gemma3      pilaf         IN-flg x TJ-end         68% 
+  gemma3      samosa        TR-cur x AF-end         68% 
+  gemini      samosa        TR-flg x TJ-end         65% 
+  gemini      samosa        UZ-cur x TJ-per         65% 
+  qwen3vl     samosa        TR-flg x TJ-end         65% 
+  gemma3      pilaf         IR-sgn x TJ-end         65% 
+  gemini      pilaf         AZ-sgn x IR-per         62% 
+  gemini      samosa        UZ-cur x KZ-per         62% 
+  gpt41       samosa        TR-sgn x KZ-nat         62% 
+  qwen3vl     mantou        IR-flg x KR-per         62% 
+  qwen3vl     mantou        IR-cur x UZ-nat         62% 
+  qwen3vl     mantou        TR-sgn x IR-nat         62% 
+  qwen3vl     samosa        TR-flg x UZ-per         62% 
+  qwen3vl     samosa        TR-flg x TJ-per         62% 
+  qwen3vl     samosa        TJ-flg x KZ-nat         62% 
+  gemini      mantou        IR-sgn x UZ-end         60% 
+  gemini      samosa        AF-flg x TR-nat         60% 
+  gemini      samosa        TR-flg x UZ-end         60% 
+  gpt41       samosa        KZ-flg x AF-per         60% 
+  qwen3vl     mantou        KR-sgn x AF-per         60% 
+  qwen3vl     mantou        KR-sgn x TR-per         60% 
+  qwen3vl     samosa        TR-flg x KZ-end         60% 
+  qwen3vl     samosa        TR-flg x AF-per         60% 
+  qwen3vl     samosa        TR-flg x KZ-per         60% 
+  qwen3vl     samosa        TJ-flg x TR-end         60% 
+  qwen3vl     samosa        TR-cur x KZ-nat         60% 
+  gemma3      pilaf         AZ-sgn x IN-end         60% 
+  gemini      pilaf         AZ-sgn x IN-per         57% 
+  gemini      samosa        TR-flg x UZ-nat         57% 
+  gemini      samosa        TR-flg x TJ-per         57% 
+  gemini      samosa        TJ-flg x TR-per         57% 
+  qwen3vl     mantou        IR-cur x TR-nat         57% 
+  qwen3vl     mantou        IR-cur x KR-end         57% 
+  qwen3vl     mantou        KR-sgn x IR-nat         57% 
+  qwen3vl     samosa        KZ-flg x TR-per         57% 
+  gemma3      pilaf         IN-cur x TJ-end         57% 
+  gemma3      samosa        AF-cur x UZ-nat         57% 
+  gemini      pilaf         AZ-sgn x IR-nat         55% 
+  gemini      pilaf         AZ-sgn x IN-end         55% 
+  gemini      pilaf         AZ-sgn x TJ-per         55% 
+  gemini      pilaf         IN-sgn x AZ-nat         55% 
+  gemini      samosa        TR-flg x KZ-end         55% 
+  gemini      samosa        KZ-flg x TJ-end         55% 
+  gpt41       samosa        AF-cur x KZ-per         55% 
+  gpt41       samosa        TR-cur x TJ-per         55% 
+  gpt41       samosa        TR-sgn x UZ-per         55% 
+  qwen3vl     mantou        KR-flg x TJ-end         55% 
+  qwen3vl     mantou        IR-cur x TR-per         55% 
+  qwen3vl     mantou        TR-cur x KR-nat         55% 
+  qwen3vl     mantou        KR-cur x AF-per         55% 
+  gemma3      samosa        AF-cur x KZ-per         55% 
+  gemini      pilaf         AZ-sgn x IN-nat         52% 
+  gemini      samosa        KZ-flg x UZ-nat         52% 
+  gemini      samosa        UZ-cur x KZ-end         52% 
+  gpt41       samosa        TR-flg x AF-per         52% 
+  gpt41       samosa        TJ-flg x AF-end         52% 
+  gpt41       samosa        TR-cur x UZ-nat         52% 
+  gpt41       samosa        TR-cur x KZ-per         52% 
+  qwen3vl     mantou        KR-cur x TJ-per         52% 
+  qwen3vl     samosa        AF-cur x UZ-nat         52% 
+  qwen3vl     samosa        UZ-cur x TR-end         52% 
+  gemma3      pilaf         AZ-cur x AF-per         52% 
+  qwen3vl     mantou        IR-flg x TR-nat         50% 
+  qwen3vl     mantou        IR-flg x KR-nat         50% 
+  qwen3vl     mantou        IR-flg x KR-end         50% 
+  qwen3vl     mantou        IR-cur x TJ-per         50% 
+  qwen3vl     mantou        IR-cur x AF-per         50% 
+  qwen3vl     mantou        TR-sgn x UZ-nat         50% 
+  gemma3      pilaf         AZ-sgn x IN-per         50% 
+  gemma3      samosa        AF-cur x KZ-nat         50% 
+  gemini      pilaf         IR-sgn x AZ-nat         48% 
+  gemini      samosa        TJ-flg x UZ-per         48% 
+  qwen3vl     mantou        IR-flg x TR-per         48% 
+  qwen3vl     mantou        TR-flg x KR-per         48% 
+  qwen3vl     mantou        AF-cur x KR-end         48% 
+  qwen3vl     mantou        AF-cur x TJ-per         48% 
+  qwen3vl     mantou        IR-cur x KR-per         48% 
+  qwen3vl     mantou        IR-sgn x KR-nat         48% 
+  qwen3vl     mantou        IR-sgn x KR-per         48% 
+  qwen3vl     mantou        TR-sgn x KR-nat         48% 
+  qwen3vl     mantou        KR-sgn x TJ-end         48% 
+  qwen3vl     mantou        KR-sgn x TJ-per         48% 
+  gemma3      samosa        TR-sgn x TJ-per         48% 
+  gemini      pilaf         IN-cur x TJ-end         45% 
+  gemini      pilaf         IR-sgn x IN-nat         45% 
+  gemini      pilaf         IR-sgn x AZ-per         45% 
+  gemini      pilaf         IN-sgn x AZ-per         45% 
+  gpt41       samosa        TR-cur x UZ-per         45% 
+  qwen3vl     mantou        KR-cur x TJ-end         45% 
+  qwen3vl     mantou        IR-sgn x UZ-nat         45% 
+  qwen3vl     mantou        TR-sgn x IR-per         45% 
+  qwen3vl     mantou        KR-sgn x AF-end         45% 
+  gemma3      pilaf         AZ-sgn x IN-nat         45% 
+  gemini      pilaf         IR-cur x IN-nat         42% 
+  gemini      mantou        KR-sgn x UZ-end         42% 
+  gemini      samosa        KZ-flg x TJ-per         42% 
+  qwen3vl     mantou        AF-flg x KR-per         42% 
+  qwen3vl     mantou        IR-flg x UZ-nat         42% 
+  qwen3vl     mantou        IR-flg x TJ-per         42% 
+  qwen3vl     mantou        AF-cur x UZ-nat         42% 
+  gemini      samosa        AF-cur x TR-end         40% 
+  qwen3vl     mantou        IR-sgn x AF-per         40% 
+  qwen3vl     mantou        KR-sgn x TR-nat         40% 
+  gemma3      pilaf         IN-sgn x AZ-per         40% 
+  gemini      pilaf         IN-sgn x TJ-per         38% 
+  qwen3vl     mantou        AF-cur x IR-per         38% 
+  qwen3vl     mantou        IR-sgn x TR-nat         38% 
+  qwen3vl     mantou        KR-sgn x UZ-nat         38% 
+  gemini      pilaf         IR-cur x AZ-per         35% 
+  gemini      pilaf         IR-cur x IN-per         35% 
+  qwen3vl     mantou        TR-sgn x KR-per         35% 
+  qwen3vl     mantou        KR-sgn x UZ-per         35% 
+  gemma3      mantou        UZ-cur x KR-end         35% 
+  qwen3vl     mantou        TR-cur x KR-per         32% 
+  qwen3vl     mantou        TR-sgn x KR-end         30% 
+  qwen3vl     mantou        TR-sgn x TJ-per         30% 
+  gemma3      pilaf         IN-sgn x IR-end         30% 
+  gemma3      pilaf         IN-sgn x AF-end         30% 
+  gpt41       mantou        IR-sgn x KR-nat         20% 
+ 
+  Region-level response most frequent (orange)  [2 cells] 
+  MODEL       CLUSTER       CELL                    OUTCOME SHARE 
+  -------------------------------------------------------- 
+  gemma3      mantou        KR-sgn x IR-end         45% 
+  gemini      meatball      IR-sgn x IN-nat         35% 
+ 
+  Other country most frequent (red)  [120 cells] 
+  MODEL       CLUSTER       CELL                    OUTCOME SHARE 
+  -------------------------------------------------------- 
+  gpt41       mantou        IR-flg x TJ-end         100% 
+  gpt41       mantou        IR-cur x TJ-end         100% 
+  gpt41       samosa        TR-flg x KZ-end         100% 
+  gpt41       samosa        AF-cur x KZ-end         100% 
+  gpt41       samosa        TR-cur x KZ-end         100% 
+  gpt41       samosa        TR-sgn x KZ-end         100% 
+  gpt41       meatball      ES-flg x AF-end         100% 
+  gpt41       meatball      IN-sgn x AF-end         100% 
+  qwen3vl     meatball      AZ-sgn x AF-end         100% 
+  gemma3      mantou        IR-flg x UZ-end         100% 
+  gemma3      mantou        IR-cur x UZ-end         100% 
+  gemma3      samosa        AF-cur x KZ-end         100% 
+  gemma3      samosa        TR-sgn x KZ-end         100% 
+  qwen3vl     pilaf         AZ-sgn x TJ-end         98% 
+  gemma3      mantou        AF-cur x TJ-end         98% 
+  gemma3      samosa        TR-cur x KZ-end         98% 
+  gpt41       mantou        TR-sgn x TJ-end         95% 
+  qwen3vl     meatball      AZ-cur x AF-end         95% 
+  gemma3      mantou        IR-cur x TJ-end         95% 
+  gemma3      mantou        IR-sgn x UZ-end         95% 
+  qwen3vl     pilaf         AZ-sgn x AF-end         92% 
+  gemma3      mantou        IR-cur x TJ-per         92% 
+  gemma3      meatball      IN-sgn x AZ-end         92% 
+  gpt41       mantou        IR-sgn x UZ-end         90% 
+  qwen3vl     meatball      TR-sgn x AF-end         90% 
+  qwen3vl     meatball      AZ-sgn x IN-end         90% 
+  gemma3      mantou        IR-flg x TJ-end         90% 
+  gpt41       pilaf         IN-sgn x TJ-end         88% 
+  gpt41       mantou        IR-flg x UZ-end         88% 
+  gemma3      mantou        KR-sgn x UZ-end         88% 
+  gemma3      meatball      AZ-sgn x IR-nat         88% 
+  gemma3      meatball      AZ-sgn x ES-nat         88% 
+  gemma3      meatball      AZ-sgn x IR-end         88% 
+  gemma3      meatball      AZ-sgn x AF-end         88% 
+  gpt41       mantou        KR-flg x IR-end         85% 
+  gpt41       mantou        IR-cur x TJ-per         85% 
+  gpt41       mantou        KR-sgn x IR-end         85% 
+  qwen3vl     meatball      AZ-sgn x IR-nat         85% 
+  qwen3vl     meatball      AZ-sgn x ES-nat         85% 
+  qwen3vl     mantou        IR-flg x AF-end         82% 
+  gemma3      meatball      IN-cur x AZ-end         82% 
+  gpt41       mantou        IR-flg x TJ-per         80% 
+  qwen3vl     mantou        IR-cur x AF-end         80% 
+  gpt41       mantou        KR-sgn x TJ-end         78% 
+  gpt41       samosa        IN-sgn x KZ-end         78% 
+  gemma3      mantou        AF-cur x TJ-per         78% 
+  gemma3      meatball      AZ-sgn x IN-nat         78% 
+  gemma3      meatball      AZ-sgn x IN-end         78% 
+  gpt41       pilaf         AZ-sgn x TJ-per         75% 
+  qwen3vl     meatball      IN-sgn x AF-end         75% 
+  gpt41       mantou        KR-cur x TJ-end         72% 
+  gpt41       mantou        IR-sgn x TJ-per         72% 
+  qwen3vl     meatball      AZ-sgn x IN-nat         72% 
+  gemma3      mantou        KR-cur x TJ-end         72% 
+  gpt41       pilaf         AZ-cur x TJ-per         70% 
+  qwen3vl     mantou        IR-flg x TJ-end         70% 
+  qwen3vl     meatball      AZ-sgn x AF-per         70% 
+  gemma3      meatball      AZ-sgn x ES-per         70% 
+  gemini      mantou        IR-flg x TJ-end         68% 
+  gpt41       mantou        IR-sgn x TJ-end         68% 
+  qwen3vl     meatball      AZ-sgn x ES-per         68% 
+  gpt41       mantou        KR-flg x TJ-end         65% 
+  gpt41       mantou        KR-cur x IR-end         65% 
+  gpt41       meatball      IN-cur x AF-end         65% 
+  qwen3vl     mantou        IR-sgn x UZ-end         65% 
+  qwen3vl     mantou        IR-sgn x TJ-end         65% 
+  gemma3      mantou        AF-cur x UZ-end         65% 
+  gpt41       pilaf         IR-sgn x TJ-per         62% 
+  gpt41       mantou        IR-cur x UZ-end         62% 
+  qwen3vl     meatball      AZ-sgn x IN-per         62% 
+  gemma3      mantou        IR-sgn x TJ-end         62% 
+  gemma3      mantou        IR-sgn x TJ-per         62% 
+  gemma3      meatball      AZ-sgn x IN-per         62% 
+  qwen3vl     mantou        IR-cur x UZ-end         60% 
+  qwen3vl     mantou        IR-sgn x AF-end         60% 
+  gemma3      mantou        KR-cur x UZ-end         60% 
+  gpt41       pilaf         AZ-cur x TJ-end         57% 
+  gpt41       meatball      IN-flg x AF-end         57% 
+  qwen3vl     mantou        IR-cur x TJ-end         57% 
+  qwen3vl     mantou        KR-sgn x UZ-end         57% 
+  qwen3vl     meatball      IN-cur x AF-end         57% 
+  gemma3      mantou        IR-sgn x AF-end         57% 
+  gpt41       samosa        AF-flg x KZ-end         55% 
+  qwen3vl     pilaf         AZ-sgn x IN-end         55% 
+  gemma3      mantou        AF-cur x IR-end         55% 
+  gemma3      mantou        TR-sgn x TJ-per         55% 
+  gemma3      mantou        KR-sgn x AF-per         55% 
+  gpt41       pilaf         AF-flg x TJ-end         52% 
+  gemma3      mantou        KR-cur x IR-end         52% 
+  gemini      mantou        IR-cur x TJ-end         50% 
+  gpt41       pilaf         IN-cur x TJ-end         50% 
+  qwen3vl     mantou        AF-cur x TJ-end         50% 
+  qwen3vl     meatball      AZ-sgn x IR-per         50% 
+  gemma3      meatball      AZ-sgn x AF-per         48% 
+  gpt41       pilaf         IR-cur x TJ-per         45% 
+  gpt41       pilaf         IR-sgn x AZ-nat         45% 
+  gemma3      mantou        KR-sgn x TJ-per         45% 
+  gemma3      samosa        TR-cur x TJ-per         45% 
+  gemini      meatball      IR-sgn x AZ-nat         42% 
+  gemini      meatball      IR-sgn x AZ-end         42% 
+  gemma3      pilaf         AZ-sgn x IR-nat         42% 
+  gemini      meatball      AZ-sgn x IR-nat         40% 
+  gemini      meatball      AZ-sgn x AF-end         40% 
+  gpt41       pilaf         IR-sgn x AZ-per         40% 
+  gemma3      mantou        IR-flg x KR-end         40% 
+  gemma3      mantou        IR-flg x TJ-per         40% 
+  gemma3      mantou        UZ-cur x TR-per         40% 
+  gemini      meatball      AZ-sgn x IR-end         38% 
+  gemma3      mantou        IR-cur x KR-nat         38% 
+  gemini      mantou        IR-sgn x TJ-end         35% 
+  gpt41       pilaf         IN-sgn x AF-end         35% 
+  gemma3      mantou        IR-sgn x KR-nat         35% 
+  gemma3      mantou        IR-sgn x KR-per         35% 
+  gemini      meatball      AZ-sgn x IN-nat         32% 
+  qwen3vl     mantou        AF-cur x TR-per         32% 
+  gemma3      mantou        UZ-cur x IR-per         32% 
+  gemini      meatball      AZ-sgn x ES-nat         30% 
+  gemma3      mantou        IR-cur x KR-per         30% 
+  gpt41       mantou        IR-cur x KR-nat         28% 
+  gemini      meatball      IR-sgn x ES-nat         22% 
+ 
+============================================================
+ 
+  Report generated: 2026-09-17 19:16:43.852567 
+============================================================
+ 

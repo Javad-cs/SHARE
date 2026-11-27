@@ -1,0 +1,194 @@
+============================================================
+CONFLICT TRIAL-LEVEL + BASE-IMAGE BOOTSTRAP ANALYSIS
+============================================================
+
+Submitted rows:        231040
+Conflict cells:        4320
+Base images:           160
+Bootstrap replicates:  5000
+Bootstrap seed:        4160
+
+Bootstrap design: 40 base images are resampled WITH REPLACEMENT
+within each of the four food clusters. All repeated model/cue
+observations attached to a sampled image are retained together.
+
+SUBMITTED MODAL ANALYSIS REPRODUCTION
+-------------------------------------
+
+visual   text    tie  prior  vague  other 
+  2215    628     19    347      5    171 
+
+============================================================
+POLICY: ORIGINAL
+============================================================
+
+Trial-level estimates:
+   policy   group n_successful_trials visual_n textual_n other_n visual_rate
+ original overall              135400    80406     25060   29934   0.5938405
+ original  gemini               35080    18269      7874    8937   0.5207811
+ original   gpt41               34000    21698      6992    5310   0.6381765
+ original qwen3vl               33440    19711      4827    8902   0.5894438
+ original  gemma3               32880    20728      5367    6785   0.6304136
+ textual_rate other_rate visual_minus_text
+    0.1850812  0.2210783         0.4087592
+    0.2244584  0.2547605         0.2963227
+    0.2056471  0.1561765         0.4325294
+    0.1443481  0.2662081         0.4450957
+    0.1632299  0.2063564         0.4671837
+
+Cell-level target-share/support summary:
+   policy   group n_cells mean_visual_target_share mean_textual_target_share
+ original overall    3385                0.5938405                 0.1850812
+ original  gemini     877                0.5207811                 0.2244584
+ original   gpt41     850                0.6381765                 0.2056471
+ original qwen3vl     836                0.5894438                 0.1443481
+ original  gemma3     822                0.6304136                 0.1632299
+ median_modal_support_visual_cells median_modal_support_text_cells
+                             0.925                          0.7500
+                             0.875                          0.6500
+                             0.925                          0.8250
+                             0.950                          0.9125
+                             0.975                          0.7750
+ median_modal_margin_visual_cells median_modal_margin_text_cells
+                            0.875                         0.5750
+                            0.775                         0.4250
+                            0.850                         0.7000
+                            0.925                         0.8250
+                            0.950                         0.6125
+
+Base-image bootstrap 95% intervals:
+   policy   group bootstrap_replicates visual_rate visual_ci_low visual_ci_high
+ original overall                 5000   0.5938405     0.5831017      0.6037890
+ original  gemini                 5000   0.5207811     0.5043037      0.5365172
+ original   gpt41                 5000   0.6381765     0.6255294      0.6499713
+ original qwen3vl                 5000   0.5894438     0.5722182      0.6060407
+ original  gemma3                 5000   0.6304136     0.6205292      0.6397810
+ textual_rate textual_ci_low textual_ci_high visual_minus_text gap_ci_low
+    0.1850812      0.1814328       0.1886486         0.4087592  0.3989956
+    0.2244584      0.2163334       0.2321551         0.2963227  0.2804996
+    0.2056471      0.2005294       0.2106176         0.4325294  0.4189699
+    0.1443481      0.1391447       0.1496711         0.4450957  0.4302931
+    0.1632299      0.1588504       0.1675182         0.4671837  0.4574513
+ gap_ci_high
+   0.4182648
+   0.3124572
+   0.4458243
+   0.4597802
+   0.4769161
+
+============================================================
+POLICY: COMMON
+============================================================
+
+Trial-level estimates:
+ policy   group n_successful_trials visual_n textual_n other_n visual_rate
+ common overall              116800    74456     20412   21932   0.6374658
+ common  gemini               29200    16475      6641    6084   0.5642123
+ common   gpt41               29200    19662      5671    3867   0.6733562
+ common qwen3vl               29200    18799      3620    6781   0.6438014
+ common  gemma3               29200    19520      4480    5200   0.6684932
+ textual_rate other_rate visual_minus_text
+    0.1747603  0.1877740         0.4627055
+    0.2274315  0.2083562         0.3367808
+    0.1942123  0.1324315         0.4791438
+    0.1239726  0.2322260         0.5198288
+    0.1534247  0.1780822         0.5150685
+
+Cell-level target-share/support summary:
+ policy   group n_cells mean_visual_target_share mean_textual_target_share
+ common overall    2920                0.6374658                 0.1747603
+ common  gemini     730                0.5642123                 0.2274315
+ common   gpt41     730                0.6733562                 0.1942123
+ common qwen3vl     730                0.6438014                 0.1239726
+ common  gemma3     730                0.6684932                 0.1534247
+ median_modal_support_visual_cells median_modal_support_text_cells
+                             0.950                           0.725
+                             0.900                           0.625
+                             0.925                           0.825
+                             0.975                           0.850
+                             0.975                           0.775
+ median_modal_margin_visual_cells median_modal_margin_text_cells
+                            0.900                         0.5375
+                            0.800                         0.4125
+                            0.875                         0.6500
+                            0.950                         0.7000
+                            0.950                         0.6000
+
+Base-image bootstrap 95% intervals:
+ policy   group bootstrap_replicates visual_rate visual_ci_low visual_ci_high
+ common overall                 5000   0.6374658     0.6264381      0.6476629
+ common  gemini                 5000   0.5642123     0.5467457      0.5809589
+ common   gpt41                 5000   0.6733562     0.6608904      0.6850000
+ common qwen3vl                 5000   0.6438014     0.6256156      0.6614726
+ common  gemma3                 5000   0.6684932     0.6582183      0.6784932
+ textual_rate textual_ci_low textual_ci_high visual_minus_text gap_ci_low
+    0.1747603      0.1709589       0.1784932         0.4627055  0.4518061
+    0.2274315      0.2187671       0.2358228         0.3367808  0.3182877
+    0.1942123      0.1888014       0.1996233         0.4791438  0.4646567
+    0.1239726      0.1188005       0.1292808         0.5198288  0.5035959
+    0.1534247      0.1488356       0.1580137         0.5150685  0.5042800
+ gap_ci_high
+   0.4732626
+   0.3555479
+   0.4932894
+   0.5359598
+   0.5258570
+
+============================================================
+POLICY: ALL
+============================================================
+
+Trial-level estimates:
+ policy   group n_successful_trials visual_n textual_n other_n visual_rate
+    all overall              172790    89770     33658   49362   0.5195324
+    all  gemini               43200    20065      9830   13305   0.4644676
+    all   gpt41               43200    23759      9362   10079   0.5499769
+    all qwen3vl               43192    22610      6665   13917   0.5234766
+    all  gemma3               43198    23336      7801   12061   0.5402102
+ textual_rate other_rate visual_minus_text
+    0.1947914  0.2856763         0.3247410
+    0.2275463  0.3079861         0.2369213
+    0.2167130  0.2333102         0.3332639
+    0.1543110  0.3222124         0.3691656
+    0.1805871  0.2792027         0.3596231
+
+Cell-level target-share/support summary:
+ policy   group n_cells mean_visual_target_share mean_textual_target_share
+    all overall    4320                0.5195107                 0.1947917
+    all  gemini    1080                0.4644676                 0.2275463
+    all   gpt41    1080                0.5499769                 0.2167130
+    all qwen3vl    1080                0.5234130                 0.1542862
+    all  gemma3    1080                0.5401852                 0.1806213
+ median_modal_support_visual_cells median_modal_support_text_cells
+                             0.925                          0.7500
+                             0.875                          0.6250
+                             0.925                          0.8250
+                             0.950                          0.9250
+                             0.950                          0.7625
+ median_modal_margin_visual_cells median_modal_margin_text_cells
+                            0.875                          0.600
+                            0.775                          0.425
+                            0.850                          0.700
+                            0.925                          0.850
+                            0.925                          0.600
+
+Base-image bootstrap 95% intervals:
+ policy   group bootstrap_replicates visual_rate visual_ci_low visual_ci_high
+    all overall                 5000   0.5195324     0.5101537      0.5282736
+    all  gemini                 5000   0.4644676     0.4493507      0.4787274
+    all   gpt41                 5000   0.5499769     0.5388194      0.5600694
+    all qwen3vl                 5000   0.5234766     0.5081363      0.5381908
+    all  gemma3                 5000   0.5402102     0.5315412      0.5485083
+ textual_rate textual_ci_low textual_ci_high visual_minus_text gap_ci_low
+    0.1947914      0.1911708       0.1982187         0.3247410  0.3170897
+    0.2275463      0.2195370       0.2351852         0.2369213  0.2240041
+    0.2167130      0.2118287       0.2212975         0.3332639  0.3223837
+    0.1543110      0.1486809       0.1598717         0.3691656  0.3569007
+    0.1805871      0.1761105       0.1848886         0.3596231  0.3514048
+ gap_ci_high
+   0.3321856
+   0.2500926
+   0.3440509
+   0.3812779
+   0.3677425
+

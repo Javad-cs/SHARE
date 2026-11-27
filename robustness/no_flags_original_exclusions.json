@@ -1,0 +1,343 @@
+{
+  "exclusions": [
+    {
+      "model": "qwen3vl",
+      "country": "spain",
+      "cue": "currency"
+    },
+    {
+      "model": "gemma3",
+      "country": "spain",
+      "cue": "currency"
+    },
+    {
+      "model": "gpt41",
+      "country": "spain",
+      "cue": "currency"
+    },
+    {
+      "model": "gemini",
+      "country": "spain",
+      "cue": "currency"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "kazakhstan",
+      "cue": "currency"
+    },
+    {
+      "model": "gemma3",
+      "country": "tajikistan",
+      "cue": "currency"
+    },
+    {
+      "model": "gpt41",
+      "country": "tajikistan",
+      "cue": "currency"
+    },
+    {
+      "model": "gpt41",
+      "country": "afghanistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemini",
+      "country": "afghanistan",
+      "cue": "sign"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "afghanistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemma3",
+      "country": "afghanistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gpt41",
+      "country": "tajikistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemini",
+      "country": "tajikistan",
+      "cue": "sign"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "tajikistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemma3",
+      "country": "kazakhstan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemma3",
+      "country": "uzbekistan",
+      "cue": "sign"
+    },
+    {
+      "model": "gemini",
+      "country": "spain",
+      "cue": "sign"
+    },
+    {
+      "model": "gemma3",
+      "country": "spain",
+      "cue": "sign"
+    },
+    {
+      "model": "gpt41",
+      "country": "afghanistan",
+      "cue": "native"
+    },
+    {
+      "model": "gemini",
+      "country": "afghanistan",
+      "cue": "native"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "afghanistan",
+      "cue": "native"
+    },
+    {
+      "model": "gemma3",
+      "country": "afghanistan",
+      "cue": "native"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "tajikistan",
+      "cue": "native"
+    },
+    {
+      "model": "gemma3",
+      "country": "azerbaijan",
+      "cue": "endonym",
+      "cluster_id": "pilaf_cl"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "azerbaijan",
+      "cue": "endonym",
+      "cluster_id": "pilaf_cl"
+    },
+    {
+      "model": "gpt41",
+      "country": "azerbaijan",
+      "cue": "endonym",
+      "cluster_id": "pilaf_cl"
+    },
+    {
+      "model": "gemini",
+      "country": "azerbaijan",
+      "cue": "endonym",
+      "cluster_id": "pilaf_cl"
+    },
+    {
+      "model": "gemini",
+      "country": "afghanistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "azerbaijan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "india",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "iran",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "kazakhstan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "korea",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "spain",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "tajikistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "turkey",
+      "cue": "flag"
+    },
+    {
+      "model": "gemini",
+      "country": "uzbekistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "afghanistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "azerbaijan",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "india",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "iran",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "kazakhstan",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "korea",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "spain",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "tajikistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "turkey",
+      "cue": "flag"
+    },
+    {
+      "model": "gpt41",
+      "country": "uzbekistan",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "afghanistan",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "azerbaijan",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "india",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "iran",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "kazakhstan",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "korea",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "spain",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "tajikistan",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "turkey",
+      "cue": "flag"
+    },
+    {
+      "model": "qwen3vl",
+      "country": "uzbekistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "afghanistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "azerbaijan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "india",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "iran",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "kazakhstan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "korea",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "spain",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "tajikistan",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "turkey",
+      "cue": "flag"
+    },
+    {
+      "model": "gemma3",
+      "country": "uzbekistan",
+      "cue": "flag"
+    }
+  ]
+}

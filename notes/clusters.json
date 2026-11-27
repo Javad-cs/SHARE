@@ -1,0 +1,484 @@
+{
+    "clusters": [
+        {
+            "cluster_id": "pilaf_cl",
+            "cluster_name": "pilaf",
+            "clip_query_term": "rice pilaf",
+            "search_terms": [
+                "plov",
+                "palaw",
+                "polo",
+                "polo dish",
+                "pilav",
+                "pilaf",
+                "pilau",
+                "chelo",
+                "chelo dish",
+                "pulaw",
+                "palov",
+                "pulao",
+                "плов",
+                "палав",
+                "osh",
+                "osh dish",
+                "ош",
+                "ош dish",
+                "oshi palav",
+                "पुलाव"
+            ],
+            "target_count": 40,
+            "countries": [
+                {
+                    "country": "Uzbekistan",
+                    "country_code": "UZ",
+                    "language": "Uzbek",
+                    "script": "Latin",
+                    "currency": "Uzbekistani Som",
+                    "currency_code": "UZS",
+                    "capital_city": "Tashkent",
+                    "dish_endonym": "palov",
+                    "cue_texts": {
+                        "sign": "Band qilingan",
+                        "endonym_prompt": "What country is this dish of palov most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Suratdagi taom qaysi davlat bilan ko'proq bog'liq? Bu qaysi taom?\nFAQAT quyidagi JSON formatida javob bering:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tashkent, Uzbekistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Tajikistan",
+                    "country_code": "TJ",
+                    "language": "Tajik",
+                    "script": "Cyrillic",
+                    "currency": "Tajikistani Somoni",
+                    "currency_code": "TJS",
+                    "capital_city": "Dushanbe",
+                    "dish_endonym": "оши палов",
+                    "cue_texts": {
+                        "sign": "Банд шудааст",
+                        "endonym_prompt": "What country is this dish of оши палов most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Ин хӯрок дар акс бештар ба кадом кишвар вобастагӣ дорад? Ин кадом хӯрок аст?\nТАНҲО дар қолаби JSON-и зерин ҷавоб диҳед:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Dushanbe, Tajikistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Azerbaijan",
+                    "country_code": "AZ",
+                    "language": "Azerbaijani",
+                    "script": "Latin",
+                    "currency": "Azerbaijani Manat",
+                    "currency_code": "AZN",
+                    "capital_city": "Baku",
+                    "dish_endonym": "aş",
+                    "cue_texts": {
+                        "sign": "Rezerv olunub",
+                        "endonym_prompt": "What country is this dish of aş most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Şəkildəki yemək ən çox hansı ölkə ilə əlaqələndirilir? Bu hansı yeməkdir?\nYALNIZ aşağıdakı JSON formatında cavab verin:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Baku, Azerbaijan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Iran",
+                    "country_code": "IR",
+                    "language": "Persian",
+                    "script": "Arabic",
+                    "currency": "Iranian Rial",
+                    "currency_code": "IRR",
+                    "capital_city": "Tehran",
+                    "dish_endonym": "پلو",
+                    "cue_texts": {
+                        "sign": "رزرو شده",
+                        "endonym_prompt": "What country is this dish of پلو most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر با کدام کشور مرتبط است؟ این چه غذایی است؟\nفقط در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tehran, Iran. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "India",
+                    "country_code": "IN",
+                    "language": "Hindi",
+                    "script": "Devanagari",
+                    "currency": "Indian Rupee",
+                    "currency_code": "INR",
+                    "capital_city": "New Delhi",
+                    "dish_endonym": "पुलाव",
+                    "cue_texts": {
+                        "sign": "रिज़र्व्ड",
+                        "endonym_prompt": "What country is this dish of पुलाव most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "फोटो में दिख रहा खाना सबसे ज्यादा किस देश से जुड़ा है? यह कौन सा खाना है?\nकेवल निम्नलिखित JSON फॉर्मेट में उत्तर दें:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in New Delhi, India. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Afghanistan",
+                    "country_code": "AF",
+                    "language": "Dari",
+                    "script": "Arabic",
+                    "currency": "Afghan Afghani",
+                    "currency_code": "AFN",
+                    "capital_city": "Kabul",
+                    "dish_endonym": "پلو",
+                    "cue_texts": {
+                        "sign": "ریزرف شده",
+                        "endonym_prompt": "What country is this dish of پلو most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر به کدام کشور مرتبط است؟ این کدام غذا است؟\nتنها در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Kabul, Afghanistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                }
+            ]
+        },
+        {
+            "cluster_id": "mantou_cl",
+            "cluster_name": "mantou",
+            "clip_query_term": "dumpling",
+            "search_terms": [
+                "manti",
+                "mantu",
+                "манты",
+                "манти",
+                "momo",
+                "momo dish",
+                "mandu",
+                "manju",
+                "찐만두",
+                "मोमो"
+            ],
+            "target_count": 40,
+            "countries": [
+                {
+                    "country": "Uzbekistan",
+                    "country_code": "UZ",
+                    "language": "Uzbek",
+                    "script": "Latin",
+                    "currency": "Uzbekistani Som",
+                    "currency_code": "UZS",
+                    "capital_city": "Tashkent",
+                    "dish_endonym": "manti",
+                    "cue_texts": {
+                        "sign": "Band qilingan",
+                        "endonym_prompt": "What country is this dish of manti most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Suratdagi taom qaysi davlat bilan ko'proq bog'liq? Bu qaysi taom?\nFAQAT quyidagi JSON formatida javob bering:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tashkent, Uzbekistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Tajikistan",
+                    "country_code": "TJ",
+                    "language": "Tajik",
+                    "script": "Cyrillic",
+                    "currency": "Tajikistani Somoni",
+                    "currency_code": "TJS",
+                    "capital_city": "Dushanbe",
+                    "dish_endonym": "манту",
+                    "cue_texts": {
+                        "sign": "Банд шудааст",
+                        "endonym_prompt": "What country is this dish of манту most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Ин хӯрок дар акс бештар ба кадом кишвар вобастагӣ дорад? Ин кадом хӯрок аст?\nТАНҲО дар қолаби JSON-и зерин ҷавоб диҳед:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Dushanbe, Tajikistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Afghanistan",
+                    "country_code": "AF",
+                    "language": "Dari",
+                    "script": "Arabic",
+                    "currency": "Afghan Afghani",
+                    "currency_code": "AFN",
+                    "capital_city": "Kabul",
+                    "dish_endonym": "منتو",
+                    "cue_texts": {
+                        "sign": "ریزرف شده",
+                        "endonym_prompt": "What country is this dish of منتو most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر به کدام کشور مرتبط است؟ این کدام غذا است؟\nتنها در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Kabul, Afghanistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Iran",
+                    "country_code": "IR",
+                    "language": "Persian",
+                    "script": "Arabic",
+                    "currency": "Iranian Rial",
+                    "currency_code": "IRR",
+                    "capital_city": "Tehran",
+                    "dish_endonym": "مانتی",
+                    "cue_texts": {
+                        "sign": "رزرو شده",
+                        "endonym_prompt": "What country is this dish of مانتی most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر با کدام کشور مرتبط است؟ این چه غذایی است؟\nفقط در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tehran, Iran. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Turkey",
+                    "country_code": "TR",
+                    "language": "Turkish",
+                    "script": "Latin",
+                    "currency": "Turkish Lira",
+                    "currency_code": "TRY",
+                    "capital_city": "Ankara",
+                    "dish_endonym": "mantı",
+                    "cue_texts": {
+                        "sign": "Rezerve edilmiştir",
+                        "endonym_prompt": "What country is this dish of mantı most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Fotoğraftaki yemek en çok hangi ülke ile ilişkilendirilmektedir? Bu yemek hangisidir?\nYALNIZCA aşağıdaki JSON formatında yanıt verin:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Ankara, Turkey. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Korea",
+                    "country_code": "KR",
+                    "language": "Korean",
+                    "script": "Hangul",
+                    "currency": "South Korean Won",
+                    "currency_code": "KRW",
+                    "capital_city": "Seoul",
+                    "dish_endonym": "만두",
+                    "cue_texts": {
+                        "sign": "예약석",
+                        "endonym_prompt": "What country is this dish of 만두 most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "사진 속 음식이 어느 나라와 가장 밀접하게 연관되어 있나요? 이 음식의 이름은 무엇인가요?\n오직 다음 JSON 형식으로만 응답하세요:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Seoul, South Korea. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                }
+            ]
+        },
+        {
+            "cluster_id": "samosa_cl",
+            "cluster_name": "samosa",
+            "clip_query_term": "pastry",
+            "search_terms": [
+                "samosa",
+                "samoosa",
+                "samsa",
+                "sambosa",
+                "sanbusak",
+                "sanbusaq",
+                "sanbusaq dish",
+                "sanbusaj",
+                "sanbusaj dish",
+                "sanbusa",
+                "sambüsa",
+                "самса",
+                "समोसा"
+            ],
+            "target_count": 40,
+            "countries": [
+                {
+                    "country": "India",
+                    "country_code": "IN",
+                    "language": "Hindi",
+                    "script": "Devanagari",
+                    "currency": "Indian Rupee",
+                    "currency_code": "INR",
+                    "capital_city": "New Delhi",
+                    "dish_endonym": "समोसा",
+                    "cue_texts": {
+                        "sign": "रिज़र्व्ड",
+                        "endonym_prompt": "What country is this dish of समोसा most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "फोटो में दिख रहा खाना सबसे ज्यादा किस देश से जुड़ा है? यह कौन सा खाना है?\nकेवल निम्नलिखित JSON फॉर्मेट में उत्तर दें:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in New Delhi, India. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Afghanistan",
+                    "country_code": "AF",
+                    "language": "Dari",
+                    "script": "Arabic",
+                    "currency": "Afghan Afghani",
+                    "currency_code": "AFN",
+                    "capital_city": "Kabul",
+                    "dish_endonym": "سمبوسه",
+                    "cue_texts": {
+                        "sign": "ریزرف شده",
+                        "endonym_prompt": "What country is this dish of سمبوسه most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر به کدام کشور مرتبط است؟ این کدام غذا است؟\nتنها در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Kabul, Afghanistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Uzbekistan",
+                    "country_code": "UZ",
+                    "language": "Uzbek",
+                    "script": "Latin",
+                    "currency": "Uzbekistani Som",
+                    "currency_code": "UZS",
+                    "capital_city": "Tashkent",
+                    "dish_endonym": "somsa",
+                    "cue_texts": {
+                        "sign": "Band qilingan",
+                        "endonym_prompt": "What country is this dish of somsa most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Suratdagi taom qaysi davlat bilan ko'proq bog'liq? Bu qaysi taom?\nFAQAT quyidagi JSON formatida javob bering:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tashkent, Uzbekistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Turkey",
+                    "country_code": "TR",
+                    "language": "Turkish",
+                    "script": "Latin",
+                    "currency": "Turkish Lira",
+                    "currency_code": "TRY",
+                    "capital_city": "Ankara",
+                    "dish_endonym": "üçgen börek",
+                    "cue_texts": {
+                        "sign": "Rezerve edilmiştir",
+                        "endonym_prompt": "What country is this dish of üçgen börek most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Fotoğraftaki yemek en çok hangi ülke ile ilişkilendirilmektedir? Bu yemek hangisidir?\nYALNIZCA aşağıdaki JSON formatında yanıt verin:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Ankara, Turkey. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Kazakhstan",
+                    "country_code": "KZ",
+                    "language": "Kazakh",
+                    "script": "Cyrillic",
+                    "currency": "Kazakhstani Tenge",
+                    "currency_code": "KZT",
+                    "capital_city": "Astana",
+                    "dish_endonym": "самса",
+                    "cue_texts": {
+                        "sign": "Брондалған",
+                        "endonym_prompt": "What country is this dish of самса most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Фотодағы тағам қай елмен көбірек байланысты? Бұл қандай тағам?\nТЕК келесі JSON форматында жауап беріңіз:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Astana, Kazakhstan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Tajikistan",
+                    "country_code": "TJ",
+                    "language": "Tajik",
+                    "script": "Cyrillic",
+                    "currency": "Tajikistani Somoni",
+                    "currency_code": "TJS",
+                    "capital_city": "Dushanbe",
+                    "dish_endonym": "самбӯса",
+                    "cue_texts": {
+                        "sign": "Банд шудааст",
+                        "endonym_prompt": "What country is this dish of самбӯса most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Ин хӯрок дар акс бештар ба кадом кишвар вобастагӣ дорад? Ин кадом хӯрок аст?\nТАНҲО дар қолаби JSON-и зерин ҷавоб диҳед:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Dushanbe, Tajikistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                }
+            ]
+        },
+        {
+            "cluster_id": "meatball_cl",
+            "cluster_name": "meatball",
+            "clip_query_term": "meatball",
+            "search_terms": [
+                "kofta",
+                "köfte",
+                "küftə",
+                "koofteh",
+                "albóndiga",
+                "kufte",
+                "kefta",
+                "keftedes",
+                "rizə-küftə",
+                "nargisi kofta",
+                "sulu köfte",
+                "कोफ़्ता",
+                "मटन कोफ़्ता"
+            ],
+            "target_count": 40,
+            "countries": [
+                {
+                    "country": "Iran",
+                    "country_code": "IR",
+                    "language": "Persian",
+                    "script": "Arabic",
+                    "currency": "Iranian Rial",
+                    "currency_code": "IRR",
+                    "capital_city": "Tehran",
+                    "dish_endonym": "کوفته",
+                    "cue_texts": {
+                        "sign": "رزرو شده",
+                        "endonym_prompt": "What country is this dish of کوفته most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر با کدام کشور مرتبط است؟ این چه غذایی است؟\nفقط در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Tehran, Iran. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "India",
+                    "country_code": "IN",
+                    "language": "Hindi",
+                    "script": "Devanagari",
+                    "currency": "Indian Rupee",
+                    "currency_code": "INR",
+                    "capital_city": "New Delhi",
+                    "dish_endonym": "कोफ़्ता",
+                    "cue_texts": {
+                        "sign": "रिज़र्व्ड",
+                        "endonym_prompt": "What country is this dish of कोफ़्ता most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "फोटो में दिख रहा खाना सबसे ज्यादा किस देश से जुड़ा है? यह कौन सा खाना है?\nकेवल निम्नलिखित JSON फॉर्मेट में उत्तर दें:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in New Delhi, India. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Turkey",
+                    "country_code": "TR",
+                    "language": "Turkish",
+                    "script": "Latin",
+                    "currency": "Turkish Lira",
+                    "currency_code": "TRY",
+                    "capital_city": "Ankara",
+                    "dish_endonym": "köfte",
+                    "cue_texts": {
+                        "sign": "Rezerve edilmiştir",
+                        "endonym_prompt": "What country is this dish of köfte most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Fotoğraftaki yemek en çok hangi ülke ile ilişkilendirilmektedir? Bu yemek hangisidir?\nYALNIZCA aşağıdaki JSON formatında yanıt verin:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Ankara, Turkey. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Afghanistan",
+                    "country_code": "AF",
+                    "language": "Dari",
+                    "script": "Arabic",
+                    "currency": "Afghan Afghani",
+                    "currency_code": "AFN",
+                    "capital_city": "Kabul",
+                    "dish_endonym": "کوفته",
+                    "cue_texts": {
+                        "sign": "ریزرف شده",
+                        "endonym_prompt": "What country is this dish of کوفته most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "غذای موجود در عکس بیشتر به کدام کشور مرتبط است؟ این کدام غذا است؟\nتنها در قالب JSON زیر پاسخ دهید:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Kabul, Afghanistan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Spain",
+                    "country_code": "ES",
+                    "language": "Spanish",
+                    "script": "Latin",
+                    "currency": "Euro",
+                    "currency_code": "EUR",
+                    "capital_city": "Madrid",
+                    "dish_endonym": "albóndigas",
+                    "cue_texts": {
+                        "sign": "Reservado",
+                        "endonym_prompt": "What country is this dish of albóndigas most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "¿Con qué país se asocia más la comida de la foto? ¿Qué comida es?\nResponde ÚNICAMENTE en el siguiente formato JSON:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Madrid, Spain. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                },
+                {
+                    "country": "Azerbaijan",
+                    "country_code": "AZ",
+                    "language": "Azerbaijani",
+                    "script": "Latin",
+                    "currency": "Azerbaijani Manat",
+                    "currency_code": "AZN",
+                    "capital_city": "Baku",
+                    "dish_endonym": "küftə",
+                    "cue_texts": {
+                        "sign": "Rezerv olunub",
+                        "endonym_prompt": "What country is this dish of küftə most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "native_prompt": "Şəkildəki yemək ən çox hansı ölkə ilə əlaqələndirilir? Bu hansı yeməkdir?\nYALNIZ aşağıdakı JSON formatında cavab verin:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}",
+                        "perspective_prompt": "Imagine you are a person born and raised in Baku, Azerbaijan. Which country is the food in the photo most associated with? Which food is it?\nRespond ONLY in the following JSON format:\n{\n  \"food_name\": \"[The specific name of the dish]\",\n  \"confidence_score_for_food\": [0-100],\n  \"primary_country\": \"[The country most associated with this dish]\",\n  \"confidence_score_for_country\": [0-100],\n  \"reasoning\": \"[1 sentence explaining the top visual cue used]\"\n}"
+                    }
+                }
+            ]
+        }
+    ]
+}

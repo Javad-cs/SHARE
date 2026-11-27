@@ -1,0 +1,7 @@
+What country does the flag in the image belong to?
+Respond ONLY in the following JSON format:
+{
+  "primary_country": "[The country this flag belongs to]",
+  "confidence_score": [0-100],
+  "reasoning": "[1 sentence explaining the key visual cue used]"
+}

@@ -1,0 +1,115 @@
+============================================================
+ 
+  ENGLISH-TO-NATIVE PROMPT COUNTRY-ATTRIBUTION FLIP REPORT 
+  Models  : gemini, gpt41, qwen3vl, gemma3 
+  Clusters: pilaf_cl, mantou_cl, samosa_cl, meatball_cl 
+  Flip = normalized country attributions differ between English and native prompts 
+  Pair = same image and same visual condition 
+  Rate = flips / paired evaluations where both predictions succeeded 
+  Aggregation = pooled numerator and denominator counts 
+============================================================
+ 
+ 
+LEVEL 1 - GLOBAL POOLED COUNTRY-ATTRIBUTION FLIP RATE 
+------------------------------------------------------------
+ 
+  VISUAL CONDITION    FLIP RATE (flips/paired successful evaluations) 
+  --------------------------------------------- 
+  Flag                7.8%  (1445/18473) 
+  Banknote            21.7%  (3539/16318) 
+  Reservation sign    22.7%  (2843/12520) 
+  Neutral image       29.9%  (920/3080) 
+ 
+============================================================
+ 
+LEVEL 2 - PER MODEL (pooled across clusters) 
+------------------------------------------------------------
+ 
+  Gemini: 
+    Flag                11.9%  (571/4800) 
+    Banknote            23.0%  (1059/4600) 
+    Reservation sign    21.1%  (676/3200) 
+    Neutral image       28.0%  (224/800) 
+ 
+  GPT-4.1: 
+    Flag                7.5%  (361/4800) 
+    Banknote            22.4%  (898/4000) 
+    Reservation sign    21.5%  (731/3400) 
+    Neutral image       33.4%  (267/800) 
+ 
+  Qwen3-VL: 
+    Flag                10.5%  (428/4073) 
+    Banknote            20.3%  (753/3718) 
+    Reservation sign    22.4%  (655/2920) 
+    Neutral image       30.1%  (205/680) 
+ 
+  Gemma3: 
+    Flag                1.8%  (85/4800) 
+    Banknote            20.7%  (829/4000) 
+    Reservation sign    26.0%  (781/3000) 
+    Neutral image       28.0%  (224/800) 
+ 
+ 
+============================================================
+ 
+LEVEL 3 - PER CLUSTER (pooled across models) 
+------------------------------------------------------------
+ 
+  Pilaf: 
+    Flag                2.4%  (111/4560) 
+    Banknote            17.5%  (727/4160) 
+    Reservation sign    24.7%  (750/3040) 
+    Neutral image       30.1%  (229/760) 
+ 
+  Mantou: 
+    Flag                12.7%  (580/4553) 
+    Banknote            30.1%  (1252/4158) 
+    Reservation sign    27.2%  (827/3040) 
+    Neutral image       30.3%  (230/760) 
+ 
+  Samosa: 
+    Flag                13.9%  (635/4560) 
+    Banknote            19.4%  (777/4000) 
+    Reservation sign    11.9%  (338/2840) 
+    Neutral image       7.0%  (53/760) 
+ 
+  Meatball: 
+    Flag                2.5%  (119/4800) 
+    Banknote            19.6%  (783/4000) 
+    Reservation sign    25.8%  (928/3600) 
+    Neutral image       51.0%  (408/800) 
+ 
+ 
+============================================================
+ 
+LEVEL 4 - PER MODEL x CLUSTER (rates and paired counts) 
+------------------------------------------------------------
+ 
+  Gemini: 
+    Pilaf       Flag=5.3% (64/1200)  Banknote=21.3% (256/1200)  Reservation sign=12.4% (99/800)  Neutral image=16.0% (32/200) 
+    Mantou      Flag=16.7% (200/1200)  Banknote=30.8% (370/1200)  Reservation sign=31.0% (248/800)  Neutral image=35.0% (70/200) 
+    Samosa      Flag=21.6% (259/1200)  Banknote=9.7% (116/1200)  Reservation sign=4.6% (37/800)  Neutral image=3.5% (7/200) 
+    Meatball    Flag=4.0% (48/1200)  Banknote=31.7% (317/1000)  Reservation sign=36.5% (292/800)  Neutral image=57.5% (115/200) 
+ 
+  GPT-4.1: 
+    Pilaf       Flag=1.1% (13/1200)  Banknote=22.5% (225/1000)  Reservation sign=25.4% (203/800)  Neutral image=34.0% (68/200) 
+    Mantou      Flag=13.2% (159/1200)  Banknote=18.8% (188/1000)  Reservation sign=25.9% (207/800)  Neutral image=35.5% (71/200) 
+    Samosa      Flag=13.5% (162/1200)  Banknote=29.8% (298/1000)  Reservation sign=10.5% (84/800)  Neutral image=6.5% (13/200) 
+    Meatball    Flag=2.2% (27/1200)  Banknote=18.7% (187/1000)  Reservation sign=23.7% (237/1000)  Neutral image=57.5% (115/200) 
+ 
+  Qwen3-VL: 
+    Pilaf       Flag=3.3% (32/960)  Banknote=10.4% (100/960)  Reservation sign=19.8% (127/640)  Neutral image=33.8% (54/160) 
+    Mantou      Flag=17.1% (163/953)  Banknote=37.6% (360/958)  Reservation sign=33.1% (212/640)  Neutral image=18.8% (30/160) 
+    Samosa      Flag=21.2% (204/960)  Banknote=19.0% (152/800)  Reservation sign=6.2% (40/640)  Neutral image=4.4% (7/160) 
+    Meatball    Flag=2.4% (29/1200)  Banknote=14.1% (141/1000)  Reservation sign=27.6% (276/1000)  Neutral image=57.0% (114/200) 
+ 
+  Gemma3: 
+    Pilaf       Flag=0.2% (2/1200)  Banknote=14.6% (146/1000)  Reservation sign=40.1% (321/800)  Neutral image=37.5% (75/200) 
+    Mantou      Flag=4.8% (58/1200)  Banknote=33.4% (334/1000)  Reservation sign=20.0% (160/800)  Neutral image=29.5% (59/200) 
+    Samosa      Flag=0.8% (10/1200)  Banknote=21.1% (211/1000)  Reservation sign=29.5% (177/600)  Neutral image=13.0% (26/200) 
+    Meatball    Flag=1.2% (15/1200)  Banknote=13.8% (138/1000)  Reservation sign=15.4% (123/800)  Neutral image=32.0% (64/200) 
+ 
+============================================================
+ 
+============================================================
+ 

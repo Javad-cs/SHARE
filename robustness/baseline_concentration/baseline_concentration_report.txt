@@ -1,0 +1,45 @@
+BASELINE ATTRIBUTION CONCENTRATION
+==================================
+
+Condition: neutral visual cue + English prompt (exact submitted baseline condition)
+Submitted baseline country excludes normalized 'region' responses, matching clash_report_csv.R.
+
+model     cluster        n baseline            base% top1(all)%   top2%  H(bits) #labels
+--------------------------------------------------------------------------------------------
+gemini    pilaf_cl      40 uzbekistan           55.0       55.0    82.5    1.749       6
+gemini    mantou_cl     40 turkey               32.5       32.5    50.0    2.355       6
+gemini    samosa_cl     40 india                95.0       95.0   100.0    0.286       2
+gemini    meatball_cl   40 india                33.3       30.0    57.5    2.876      12
+gpt41     pilaf_cl      40 india                42.5       42.5    72.5    2.169       8
+gpt41     mantou_cl     40 nepal                22.5       22.5    40.0    2.854       8
+gpt41     samosa_cl     40 india                97.5       97.5   100.0    0.169       2
+gpt41     meatball_cl   40 india                37.5       37.5    55.0    2.778      11
+qwen3vl   pilaf_cl      40 india                67.5       67.5    80.0    1.653       7
+qwen3vl   mantou_cl     40 china                60.0       60.0    80.0    1.631       5
+qwen3vl   samosa_cl     40 india                97.5       97.5   100.0    0.169       2
+qwen3vl   meatball_cl   40 italy                40.0       40.0    72.5    2.029       6
+gemma3    pilaf_cl      40 uzbekistan           50.0       50.0    62.5    2.583      12
+gemma3    mantou_cl     40 georgia|nepal        22.5       22.5    45.0    2.661       7
+gemma3    samosa_cl     40 india                89.7       87.5    92.5    0.784       5
+gemma3    meatball_cl   40 sweden               45.0       45.0    65.0    2.395       9
+
+FULL NORMALIZED DISTRIBUTIONS
+=============================
+gemini / pilaf_cl: uzbekistan=22 (55.0%), india=11 (27.5%), china=3 (7.5%), afghanistan=2 (5.0%), pakistan=1 (2.5%), turkey=1 (2.5%)
+gemini / mantou_cl: turkey=13 (32.5%), china=7 (17.5%), japan=7 (17.5%), nepal=7 (17.5%), south korea=5 (12.5%), kazakhstan=1 (2.5%)
+gemini / samosa_cl: india=38 (95.0%), uzbekistan=2 (5.0%)
+gemini / meatball_cl: india=12 (30.0%), italy=11 (27.5%), region=4 (10.0%), turkey=3 (7.5%), egypt=2 (5.0%), sweden=2 (5.0%), china=1 (2.5%), greece=1 (2.5%), mexico=1 (2.5%), morocco=1 (2.5%), philippines=1 (2.5%), spain=1 (2.5%)
+gpt41 / pilaf_cl: india=17 (42.5%), uzbekistan=12 (30.0%), nigeria=5 (12.5%), china=2 (5.0%), afghanistan=1 (2.5%), saudi arabia=1 (2.5%), spain=1 (2.5%), turkey=1 (2.5%)
+gpt41 / mantou_cl: nepal=9 (22.5%), japan=7 (17.5%), georgia=6 (15.0%), turkey=6 (15.0%), china=4 (10.0%), russia=3 (7.5%), south korea=3 (7.5%), uzbekistan=2 (5.0%)
+gpt41 / samosa_cl: india=39 (97.5%), argentina=1 (2.5%)
+gpt41 / meatball_cl: india=15 (37.5%), turkey=7 (17.5%), italy=6 (15.0%), greece=2 (5.0%), nigeria=2 (5.0%), spain=2 (5.0%), sweden=2 (5.0%), iran=1 (2.5%), mexico=1 (2.5%), morocco=1 (2.5%), thailand=1 (2.5%)
+qwen3vl / pilaf_cl: india=27 (67.5%), uzbekistan=5 (12.5%), spain=3 (7.5%), china=2 (5.0%), iran=1 (2.5%), nigeria=1 (2.5%), saudi arabia=1 (2.5%)
+qwen3vl / mantou_cl: china=24 (60.0%), poland=8 (20.0%), japan=5 (12.5%), ukraine=2 (5.0%), nepal=1 (2.5%)
+qwen3vl / samosa_cl: india=39 (97.5%), china=1 (2.5%)
+qwen3vl / meatball_cl: italy=16 (40.0%), sweden=13 (32.5%), turkey=5 (12.5%), india=4 (10.0%), hungary=1 (2.5%), ukraine=1 (2.5%)
+gemma3 / pilaf_cl: uzbekistan=20 (50.0%), india=5 (12.5%), china=3 (7.5%), saudi arabia=3 (7.5%), egypt=2 (5.0%), iraq=1 (2.5%), jamaica=1 (2.5%), lebanon=1 (2.5%), pakistan=1 (2.5%), spain=1 (2.5%), turkey=1 (2.5%), yemen=1 (2.5%)
+gemma3 / mantou_cl: georgia=9 (22.5%), nepal=9 (22.5%), poland=6 (15.0%), russia=6 (15.0%), china=5 (12.5%), japan=3 (7.5%), turkey=2 (5.0%)
+gemma3 / samosa_cl: india=35 (87.5%), united states=2 (5.0%), greece=1 (2.5%), region=1 (2.5%), somalia=1 (2.5%)
+gemma3 / meatball_cl: sweden=18 (45.0%), turkey=8 (20.0%), egypt=4 (10.0%), italy=4 (10.0%), iran=2 (5.0%), india=1 (2.5%), morocco=1 (2.5%), pakistan=1 (2.5%), spain=1 (2.5%)
+
+Interpretation note: lower entropy / higher top-1 share means a more concentrated neutral-English attribution distribution. This is descriptive; it does not by itself establish that baseline concentration causes later cue-conflict behavior.

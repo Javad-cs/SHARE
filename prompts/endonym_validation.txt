@@ -1,0 +1,9 @@
+You are shown a dish name written in some language.
+
+Identify the dish in English and briefly describe what kind of food it is.
+
+Respond ONLY with valid JSON:
+{
+  "english_name": "common English name",
+  "dish_description": "one or two concise sentences describing the dish"
+}

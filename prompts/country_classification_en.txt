@@ -1,0 +1,9 @@
+Which country is the food in the photo the most associated with? Which food is it?
+Respond ONLY in the following JSON format:
+{
+  "food_name": "[The specific name of the dish]",
+  "confidence_score_for_food": [0-100],
+  "primary_country": "[The country most associated with this dish]",
+  "confidence_score_for_country": [0-100],
+  "reasoning": "[1 sentence explaining the top visual cue used]"
+}

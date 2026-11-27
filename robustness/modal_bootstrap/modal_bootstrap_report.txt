@@ -1,0 +1,116 @@
+============================================================
+MODAL-CELL BASE-IMAGE BOOTSTRAP
+============================================================
+
+Submitted rows:       231040
+Conflict cells:       4320
+Base images:          160
+Bootstrap replicates: 5000
+Bootstrap seed:       4160
+
+Resampling unit: base image. Within each food cluster, the 40 base images are sampled with replacement. All repeated conditions for a sampled image move together.
+
+For every bootstrap replicate, each conflict cell's modal prediction is recomputed from the resampled images. Visual/textual ties are retained as ties. All remaining modal outcomes are grouped as OTHER because the present analysis targets uncertainty in the visual/textual headline.
+
+============================================================
+POLICY: ORIGINAL
+============================================================
+
+Point cell counts:
+classified     visual       text        tie      other 
+      3385       2215        628         19        523 
+
+Bootstrap 95% intervals:
+   policy   group point_classified_cells visual_rate visual_ci_low
+ original overall                   3385   0.6543575     0.6398818
+ original  gemini                    877   0.5895097     0.5553022
+ original   gpt41                    850   0.6976471     0.6858824
+ original qwen3vl                    836   0.6423445     0.6160287
+ original  gemma3                    822   0.6909976     0.6763990
+ visual_ci_high textual_rate textual_ci_low textual_ci_high    tie_rate
+      0.6623338    0.1855244      0.1837518       0.1943870 0.005612999
+      0.6100342    0.2383124      0.2314709       0.2599772 0.009122007
+      0.7105882    0.1941176      0.1882353       0.2082353 0.008235294
+      0.6566986    0.1339713      0.1255981       0.1447368 0.001196172
+      0.6970803    0.1727494      0.1666667       0.1812652 0.003649635
+  tie_ci_low tie_ci_high other_rate visual_minus_text gap_ci_low gap_ci_high
+ 0.002067947 0.006499261  0.1545052         0.4688331  0.4481536   0.4753323
+ 0.002280502 0.012542759  0.1630559         0.3511973  0.2998860   0.3728620
+ 0.001176471 0.010588235  0.1000000         0.5035294  0.4811765   0.5188235
+ 0.000000000 0.005980861  0.2224880         0.5083732  0.4844498   0.5215311
+ 0.000000000 0.004866180  0.1326034         0.5182482  0.4987835   0.5267640
+ max_missing_cells_any_bootstrap bootstrap_replicates
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+
+============================================================
+POLICY: COMMON
+============================================================
+
+Point cell counts:
+classified     visual       text        tie      other 
+      2920       2040        504         17        359 
+
+Bootstrap 95% intervals:
+ policy   group point_classified_cells visual_rate visual_ci_low visual_ci_high
+ common overall                   2920   0.6986301     0.6842380      0.7075342
+ common  gemini                    730   0.6301370     0.5958904      0.6547945
+ common   gpt41                    730   0.7315068     0.7164384      0.7424658
+ common qwen3vl                    730   0.7013699     0.6767123      0.7178082
+ common  gemma3                    730   0.7315068     0.7164384      0.7383562
+ textual_rate textual_ci_low textual_ci_high    tie_rate  tie_ci_low
+    0.1726027      0.1702055       0.1821918 0.005821918 0.002054795
+    0.2438356      0.2342466       0.2671233 0.009589041 0.001369863
+    0.1753425      0.1712329       0.1917808 0.008219178 0.001369863
+    0.1136986      0.1027397       0.1246575 0.001369863 0.000000000
+    0.1575342      0.1520548       0.1671233 0.004109589 0.000000000
+ tie_ci_high other_rate visual_minus_text gap_ci_low gap_ci_high
+ 0.006849315 0.12294521         0.5260274  0.5041010   0.5345976
+ 0.013698630 0.11643836         0.3863014  0.3315068   0.4164384
+ 0.010958904 0.08493151         0.5561644  0.5273973   0.5684932
+ 0.006849315 0.18356164         0.5876712  0.5657534   0.6041096
+ 0.005479452 0.10684932         0.5739726  0.5534247   0.5835616
+ max_missing_cells_any_bootstrap bootstrap_replicates
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+
+============================================================
+POLICY: ALL
+============================================================
+
+Point cell counts:
+classified     visual       text        tie      other 
+      4320       2474        873         19        954 
+
+Bootstrap 95% intervals:
+ policy   group point_classified_cells visual_rate visual_ci_low visual_ci_high
+    all overall                   4320   0.5726852     0.5601852      0.5798611
+    all  gemini                   1080   0.5240741     0.4944444      0.5444444
+    all   gpt41                   1080   0.6018519     0.5916667      0.6120370
+    all qwen3vl                   1080   0.5712963     0.5462963      0.5833333
+    all  gemma3                   1080   0.5935185     0.5805556      0.5990741
+ textual_rate textual_ci_low textual_ci_high     tie_rate   tie_ci_low
+    0.2020833      0.2002315       0.2094907 0.0043981481 0.0016203704
+    0.2537037      0.2472222       0.2703704 0.0074074074 0.0018518519
+    0.2138889      0.2074074       0.2259259 0.0064814815 0.0009259259
+    0.1462963      0.1379630       0.1574074 0.0009259259 0.0000000000
+    0.1944444      0.1898148       0.2027778 0.0027777778 0.0000000000
+ tie_ci_high other_rate visual_minus_text gap_ci_low gap_ci_high
+ 0.005092593  0.2208333         0.3706019  0.3543981   0.3756944
+ 0.011111111  0.2148148         0.2703704  0.2314815   0.2898148
+ 0.008333333  0.1777778         0.3879630  0.3694444   0.4009259
+ 0.004629630  0.2814815         0.4250000  0.4027778   0.4342593
+ 0.004629630  0.2092593         0.3990741  0.3814815   0.4046296
+ max_missing_cells_any_bootstrap bootstrap_replicates
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+                               0                 5000
+

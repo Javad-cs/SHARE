@@ -1,0 +1,133 @@
+============================================================
+ 
+  TARGET-COUNTRY ATTRIBUTION REPORT 
+  Models  : gemini, gpt41, qwen3vl, gemma3 
+  Clusters: pilaf_cl, mantou_cl, samosa_cl, meatball_cl 
+  Rate    : target-country attributions / successful responses 
+  Visual  : cue-added image with English prompt 
+  Textual : neutral image with target textual prompt 
+  Excluded cue-country conditions are removed 
+============================================================
+ 
+ 
+LEVEL 1 - GLOBAL POOLED TARGET-COUNTRY ATTRIBUTION RATE 
+------------------------------------------------------------
+ 
+  CUE                         RATE (target attributions / successful responses) 
+  ---------------------------------------- 
+  Flag                        86.0%  (3303/3840) 
+  Banknote                    59.5%  (2023/3400) 
+  Reservation sign            45.1%  (1172/2600) 
+  Endonym prompt              43.1%  (1587/3680) 
+  Perspective prompt          39.7%  (1525/3840) 
+  Native-language prompt      27.2%  (838/3080) 
+ 
+============================================================
+ 
+LEVEL 2 — PER MODEL (pooled across clusters) 
+------------------------------------------------------------
+ 
+  Gemini: 
+    Flag                        80.3%  (771/960) 
+    Banknote                    50.1%  (461/920) 
+    Reservation sign            31.9%  (204/640) 
+    Endonym prompt              38.4%  (353/920) 
+    Perspective prompt          46.0%  (442/960) 
+    Native-language prompt      28.2%  (226/800) 
+ 
+  GPT-4.1: 
+    Flag                        90.8%  (872/960) 
+    Banknote                    69.4%  (555/800) 
+    Reservation sign            55.7%  (379/680) 
+    Endonym prompt              62.0%  (570/920) 
+    Perspective prompt          35.0%  (336/960) 
+    Native-language prompt      32.6%  (261/800) 
+ 
+  Qwen3-VL: 
+    Flag                        75.6%  (726/960) 
+    Banknote                    52.6%  (463/880) 
+    Reservation sign            47.6%  (324/680) 
+    Endonym prompt              35.3%  (325/920) 
+    Perspective prompt          37.8%  (363/960) 
+    Native-language prompt      28.1%  (191/680) 
+ 
+  Gemma3: 
+    Flag                        97.3%  (934/960) 
+    Banknote                    68.0%  (544/800) 
+    Reservation sign            44.2%  (265/600) 
+    Endonym prompt              36.8%  (339/920) 
+    Perspective prompt          40.0%  (384/960) 
+    Native-language prompt      20.0%  (160/800) 
+ 
+ 
+============================================================
+ 
+LEVEL 3 — PER CLUSTER (pooled across models) 
+------------------------------------------------------------
+ 
+  Pilaf: 
+    Flag                        97.3%  (934/960) 
+    Banknote                    78.0%  (686/880) 
+    Reservation sign            55.2%  (353/640) 
+    Endonym prompt              51.0%  (408/800) 
+    Perspective prompt          53.5%  (514/960) 
+    Native-language prompt      30.1%  (229/760) 
+ 
+  Mantou: 
+    Flag                        76.0%  (730/960) 
+    Banknote                    44.2%  (389/880) 
+    Reservation sign            30.5%  (195/640) 
+    Endonym prompt              28.8%  (276/960) 
+    Perspective prompt          29.1%  (279/960) 
+    Native-language prompt      15.5%  (118/760) 
+ 
+  Samosa: 
+    Flag                        72.6%  (697/960) 
+    Banknote                    36.0%  (302/840) 
+    Reservation sign            33.8%  (203/600) 
+    Endonym prompt              40.2%  (386/960) 
+    Perspective prompt          25.1%  (241/960) 
+    Native-language prompt      22.5%  (171/760) 
+ 
+  Meatball: 
+    Flag                        98.1%  (942/960) 
+    Banknote                    80.8%  (646/800) 
+    Reservation sign            58.5%  (421/720) 
+    Endonym prompt              53.9%  (517/960) 
+    Perspective prompt          51.1%  (491/960) 
+    Native-language prompt      40.0%  (320/800) 
+ 
+ 
+============================================================
+ 
+LEVEL 4 — PER MODEL x CLUSTER 
+------------------------------------------------------------
+ 
+  Gemini: 
+    Pilaf       Flag=93.8% (225/240)  Banknote=72.1% (173/240)  Reservation sign=31.2% (50/160)  Endonym prompt=49.0% (98/200)  Perspective prompt=39.6% (95/240)  Native-language prompt=25.5% (51/200) 
+    Mantou      Flag=75.8% (182/240)  Banknote=41.2% (99/240)  Reservation sign=31.9% (51/160)  Endonym prompt=29.6% (71/240)  Perspective prompt=40.0% (96/240)  Native-language prompt=21.5% (43/200) 
+    Samosa      Flag=53.8% (129/240)  Banknote=19.6% (47/240)  Reservation sign=26.9% (43/160)  Endonym prompt=27.9% (67/240)  Perspective prompt=28.3% (68/240)  Native-language prompt=22.5% (45/200) 
+    Meatball    Flag=97.9% (235/240)  Banknote=71.0% (142/200)  Reservation sign=37.5% (60/160)  Endonym prompt=48.8% (117/240)  Perspective prompt=76.2% (183/240)  Native-language prompt=43.5% (87/200) 
+ 
+  GPT-4.1: 
+    Pilaf       Flag=99.2% (238/240)  Banknote=75.0% (150/200)  Reservation sign=59.4% (95/160)  Endonym prompt=62.0% (124/200)  Perspective prompt=32.5% (78/240)  Native-language prompt=30.5% (61/200) 
+    Mantou      Flag=80.4% (193/240)  Banknote=68.5% (137/200)  Reservation sign=43.1% (69/160)  Endonym prompt=42.5% (102/240)  Perspective prompt=38.3% (92/240)  Native-language prompt=25.5% (51/200) 
+    Samosa      Flag=85.0% (204/240)  Banknote=43.0% (86/200)  Reservation sign=31.9% (51/160)  Endonym prompt=63.3% (152/240)  Perspective prompt=21.7% (52/240)  Native-language prompt=22.0% (44/200) 
+    Meatball    Flag=98.8% (237/240)  Banknote=91.0% (182/200)  Reservation sign=82.0% (164/200)  Endonym prompt=80.0% (192/240)  Perspective prompt=47.5% (114/240)  Native-language prompt=52.5% (105/200) 
+ 
+  Qwen3-VL: 
+    Pilaf       Flag=96.7% (232/240)  Banknote=80.0% (192/240)  Reservation sign=93.1% (149/160)  Endonym prompt=54.0% (108/200)  Perspective prompt=79.2% (190/240)  Native-language prompt=41.2% (66/160) 
+    Mantou      Flag=56.2% (135/240)  Banknote=23.3% (56/240)  Reservation sign=17.5% (28/160)  Endonym prompt=16.7% (40/240)  Perspective prompt=15.4% (37/240)  Native-language prompt=1.2% (2/160) 
+    Samosa      Flag=51.7% (124/240)  Banknote=25.0% (50/200)  Reservation sign=27.5% (44/160)  Endonym prompt=23.8% (57/240)  Perspective prompt=18.8% (45/240)  Native-language prompt=26.2% (42/160) 
+    Meatball    Flag=97.9% (235/240)  Banknote=82.5% (165/200)  Reservation sign=51.5% (103/200)  Endonym prompt=50.0% (120/240)  Perspective prompt=37.9% (91/240)  Native-language prompt=40.5% (81/200) 
+ 
+  Gemma3: 
+    Pilaf       Flag=99.6% (239/240)  Banknote=85.5% (171/200)  Reservation sign=36.9% (59/160)  Endonym prompt=39.0% (78/200)  Perspective prompt=62.9% (151/240)  Native-language prompt=25.5% (51/200) 
+    Mantou      Flag=91.7% (220/240)  Banknote=48.5% (97/200)  Reservation sign=29.4% (47/160)  Endonym prompt=26.2% (63/240)  Perspective prompt=22.5% (54/240)  Native-language prompt=11.0% (22/200) 
+    Samosa      Flag=100.0% (240/240)  Banknote=59.5% (119/200)  Reservation sign=54.2% (65/120)  Endonym prompt=45.8% (110/240)  Perspective prompt=31.7% (76/240)  Native-language prompt=20.0% (40/200) 
+    Meatball    Flag=97.9% (235/240)  Banknote=78.5% (157/200)  Reservation sign=58.8% (94/160)  Endonym prompt=36.7% (88/240)  Perspective prompt=42.9% (103/240)  Native-language prompt=23.5% (47/200) 
+ 
+============================================================
+
+============================================================
+ 

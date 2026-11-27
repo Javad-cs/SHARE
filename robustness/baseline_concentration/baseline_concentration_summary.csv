@@ -1,0 +1,17 @@
+model,cluster,requested,successful,region_count,other_count,n_distinct_outputs,top1_label_all,top1_count_all,top1_share_all_pct,top2_label_all,top2_count_all,top2_cumulative_share_all_pct,entropy_bits_all,submitted_baseline,submitted_baseline_top_count,submitted_nonregion_n,submitted_baseline_share_pct
+gemini,pilaf_cl,40,40,0,0,6,uzbekistan,22,55.000,india,11,82.500,1.749,uzbekistan,22,40,55.000
+gemini,mantou_cl,40,40,0,0,6,turkey,13,32.500,china,7,50.000,2.355,turkey,13,40,32.500
+gemini,samosa_cl,40,40,0,0,2,india,38,95.000,uzbekistan,2,100.000,0.286,india,38,40,95.000
+gemini,meatball_cl,40,40,4,0,12,india,12,30.000,italy,11,57.500,2.876,india,12,36,33.333
+gpt41,pilaf_cl,40,40,0,0,8,india,17,42.500,uzbekistan,12,72.500,2.169,india,17,40,42.500
+gpt41,mantou_cl,40,40,0,0,8,nepal,9,22.500,japan,7,40.000,2.854,nepal,9,40,22.500
+gpt41,samosa_cl,40,40,0,0,2,india,39,97.500,argentina,1,100.000,0.169,india,39,40,97.500
+gpt41,meatball_cl,40,40,0,0,11,india,15,37.500,turkey,7,55.000,2.778,india,15,40,37.500
+qwen3vl,pilaf_cl,40,40,0,0,7,india,27,67.500,uzbekistan,5,80.000,1.653,india,27,40,67.500
+qwen3vl,mantou_cl,40,40,0,0,5,china,24,60.000,poland,8,80.000,1.631,china,24,40,60.000
+qwen3vl,samosa_cl,40,40,0,0,2,india,39,97.500,china,1,100.000,0.169,india,39,40,97.500
+qwen3vl,meatball_cl,40,40,0,0,6,italy,16,40.000,sweden,13,72.500,2.029,italy,16,40,40.000
+gemma3,pilaf_cl,40,40,0,0,12,uzbekistan,20,50.000,india,5,62.500,2.583,uzbekistan,20,40,50.000
+gemma3,mantou_cl,40,40,0,0,7,georgia,9,22.500,nepal,9,45.000,2.661,georgia|nepal,9,40,22.500
+gemma3,samosa_cl,40,40,1,0,5,india,35,87.500,united states,2,92.500,0.784,india,35,39,89.744
+gemma3,meatball_cl,40,40,0,0,9,sweden,18,45.000,turkey,8,65.000,2.395,sweden,18,40,45.000
